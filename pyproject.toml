@@ -1,0 +1,17 @@
+[project]
+name = "combined-scraper"
+version = "0.2.0"
+description = "AI-powered executive sourcing pipeline for HR professionals in Japan"
+readme = "combined_scraper/README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.28.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+scrape = "combined_scraper.run:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

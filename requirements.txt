@@ -1,0 +1,16 @@
+# Sourcing Pipeline Dependencies
+
+# HTTP requests (Google Doc fetching, API calls)
+requests>=2.28.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# BM25 ranking (Module 6)
+rank-bm25>=0.2.2
+
+# Apify integration (Module 5)
+apify-client>=1.0.0
+
+# Data handling and CSV export
+pandas>=2.0.0
