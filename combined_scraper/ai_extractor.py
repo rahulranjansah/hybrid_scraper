@@ -49,6 +49,8 @@ For each result, return a JSON array where each item has:
 - "title": their job title (or null)
 - "company": their company (or null)
 - "source_type": one of "profile", "event_speaker", "press_release", "article", "presentation", "other"
+- "employment_type": one of "employee", "founder", "self_employed", "recruiter", "consultant", "unknown"
+- "seniority": one of "c_level", "vp", "director", "head", "manager", "senior_manager", "other", "unknown"
 
 Only extract what you can clearly see in the title and snippet. Don't guess or infer.
 If a result mentions multiple people, return multiple entries with the same index.
@@ -112,6 +114,8 @@ def extract_people(results: list[dict]) -> list[dict]:
                             "title": e.get("title"),
                             "company": e.get("company"),
                             "source_type": e.get("source_type", "other"),
+                            "employment_type": e.get("employment_type"),
+                            "seniority": e.get("seniority"),
                         })
 
                 result["people"] = people

@@ -46,6 +46,58 @@ from combined_scraper.ai_scorer import score_results
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
 
 
+def load_exclusions(csv_path: str) -> tuple[set, set]:
+    """Load previously found people names and URLs to exclude from new results."""
+    excluded_names = set()
+    excluded_urls = set()
+
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            url = row.get("url", "").strip()
+            if url:
+                clean_url = url.split("?")[0].rstrip("/").lower()
+                excluded_urls.add(clean_url)
+
+            names = row.get("people_names", "")
+            for name in names.split(";"):
+                name = name.strip()
+                if name:
+                    excluded_names.add(name.lower())
+
+    return excluded_names, excluded_urls
+
+
+def filter_exclusions(results: list[dict], excluded_names: set, excluded_urls: set) -> list[dict]:
+    """Remove results that match previously found people or URLs."""
+    filtered = []
+    removed = 0
+
+    for r in results:
+        clean_url = r.get("url", "").split("?")[0].rstrip("/").lower()
+        if clean_url in excluded_urls:
+            removed += 1
+            continue
+
+        # Check if any extracted person was already found
+        people = r.get("people", [])
+        if people:
+            known = any(
+                p.get("name", "").lower() in excluded_names
+                for p in people if p.get("name")
+            )
+            if known:
+                removed += 1
+                continue
+
+        filtered.append(r)
+
+    if removed:
+        print(f"  Excluded {removed} previously found results")
+
+    return filtered
+
+
 def fetch_keywords_from_doc(doc_url: str) -> str:
     """Reuse the existing Google Doc fetcher."""
     from src.google_doc_fetcher import fetch_google_doc
@@ -58,9 +110,9 @@ def save_csv(results: list[dict], filepath: str) -> None:
         return
 
     fieldnames = [
-        "relevance_score", "score_reason", "url", "title", "snippet",
+        "relevance_score", "score_reason", "flag", "url", "title", "snippet",
         "site_group", "engine", "people_names", "people_titles", "people_companies",
-        "people_linkedin",
+        "people_linkedin", "people_employment_types", "people_seniorities",
     ]
 
     with open(filepath, "w", newline="", encoding="utf-8") as f:
@@ -73,6 +125,9 @@ def save_csv(results: list[dict], filepath: str) -> None:
             row["people_titles"] = "; ".join(p.get("title", "") for p in people if p.get("title"))
             row["people_companies"] = "; ".join(p.get("company", "") for p in people if p.get("company"))
             row["people_linkedin"] = "; ".join(p.get("linkedin_url", "") for p in people if p.get("linkedin_url"))
+            row["people_employment_types"] = "; ".join(p.get("employment_type", "") for p in people if p.get("employment_type"))
+            row["people_seniorities"] = "; ".join(p.get("seniority", "") for p in people if p.get("seniority"))
+            row["flag"] = r.get("flag", "")
             writer.writerow(row)
 
     print(f"Saved CSV: {filepath}")
@@ -103,6 +158,8 @@ def main():
                         help="Generate queries only, no searching")
     parser.add_argument("--output-name", type=str, default=None,
                         help="Custom output filename (without extension)")
+    parser.add_argument("--exclude-csv", type=str, default=None,
+                        help="Path to previous results CSV — excludes already-found people and URLs")
     args = parser.parse_args()
 
     # --- Stage 0: Get keywords ---
@@ -146,9 +203,26 @@ def main():
         print("\nNo results found. Try different keywords or engines.")
         return
 
+    # --- Load exclusions if provided ---
+    excluded_names, excluded_urls = set(), set()
+    if args.exclude_csv:
+        print(f"\n[Exclusions] Loading previous results from {args.exclude_csv}...")
+        excluded_names, excluded_urls = load_exclusions(args.exclude_csv)
+        print(f"  Excluding {len(excluded_names)} names and {len(excluded_urls)} URLs")
+
+        # Pre-filter URLs before expensive AI calls
+        before = len(results)
+        results = [r for r in results if r.get("url", "").split("?")[0].rstrip("/").lower() not in excluded_urls]
+        if before - len(results) > 0:
+            print(f"  Dropped {before - len(results)} duplicate URLs before extraction")
+
     # --- Stage 3: AI person extraction ---
     print(f"\n[Stage 3] Extracting people with Gemini...")
     results = extract_people(results)
+
+    # Filter out already-known people after extraction
+    if excluded_names:
+        results = filter_exclusions(results, excluded_names, excluded_urls)
 
     # --- Stage 3.5: LinkedIn URL lookup ---
     print(f"\n[Stage 3.5] Looking up LinkedIn URLs...")

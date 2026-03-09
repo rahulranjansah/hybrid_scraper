@@ -159,7 +159,7 @@ def _pick_engine(query: dict, engines: list[str]) -> str:
     return engines[0]
 
 
-MAX_RESULTS = 50  # stop harvesting once we have enough usable results
+MAX_RESULTS = 100  # increased to find 15+ new profiles after filtering
 
 
 def _interleave_queries(queries: list[dict]) -> list[dict]:

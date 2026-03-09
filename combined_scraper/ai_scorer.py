@@ -85,6 +85,16 @@ Rate each candidate result below on a 0-10 scale:
 - 1-3: Weak match (tangential)
 - 0: Not relevant
 
+IMPORTANT FILTERING RULES (from client feedback):
+- EXCLUDE (score 0): Recruiters, headhunters, executive search professionals — they are NOT candidates
+- EXCLUDE (score 0): Founders, self-employed, freelancers, consultants running their own firm
+- EXCLUDE (score 0): People who appear to be above 55 years old (e.g., graduated before 1993, 30+ years experience)
+- PENALIZE (max score 5): HR Senior Manager level or below — client wants Director level and above
+- PENALIZE (max score 6): People at purely domestic Japanese companies with no global/international operations
+- FLAG in reason: If the person appears to have recently changed jobs, mention "recently changed jobs" in the reason
+- PREFER: People at multinational/global companies, with LinkedIn profiles
+- Target roles: CHRO, HR Director, Head of HR, VP HR, Country HR Manager, senior HRBP (at Director+ level)
+
 Results:
 {chr(10).join(entries)}
 
@@ -92,6 +102,7 @@ Return a JSON array where each item has:
 - "index": result number (0-based)
 - "score": integer 0-10
 - "reason": one short sentence explaining the score
+- "flag": "green" (strong match), "yellow" (recently changed jobs or minor concerns), or "red" (excluded/weak)
 """
 
         try:
@@ -108,6 +119,7 @@ Return a JSON array where each item has:
                 s = score_map.get(j, {})
                 result["relevance_score"] = s.get("score", 0)
                 result["score_reason"] = s.get("reason", "No score returned")
+                result["flag"] = s.get("flag", "")
 
         except Exception as e:
             print(f"    Error in batch {batch_num}: {e}")

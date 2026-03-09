@@ -31,7 +31,7 @@ GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_M
 
 # Safety: max output tokens per Gemini call
 # 1024 tokens ≈ 600-800 words — plenty for a list of search queries
-MAX_OUTPUT_TOKENS = 1024
+MAX_OUTPUT_TOKENS = 2048
 
 # Sites we want to search — grouped by purpose
 # These replace SITE_FILTERS in boolean_search_builder.py
@@ -140,9 +140,13 @@ Rules:
 - Include both English AND Japanese versions of job titles and locations
   (e.g., "Tokyo" OR "東京", "HR Director" OR "人事部長")
 - Keep queries under 200 characters each (search engines truncate long queries)
-- Generate 1-2 queries per site group — enough to cover the keywords without being too broad
+- Generate 2-3 queries per site group — we need VOLUME, aim for 15+ unique people
+- Vary the queries: use different title variations (CHRO, VP HR, 人事本部長, 執行役員人事, Head of People, CPO)
+- For LinkedIn: try different seniority keywords across queries to avoid duplicate results
 - For conference/event sites, include words like 登壇, 講演, speaker — but don't limit to ONLY speakers
-- Focus on finding PEOPLE, not job listings or generic articles
+- Focus on finding PEOPLE at multinational/global companies, not job listings or generic articles
+- EXCLUDE recruiter/headhunter profiles — add "-recruiter -headhunter -人材紹介" where possible
+- Target people who are EMPLOYEES at companies, not founders or self-employed
 
 Return a JSON array where each item has:
 - "query": the search query string
