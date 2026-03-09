@@ -1,0 +1,788 @@
+[
+  {
+    "url": "https://jp.linkedin.com/in/tatsuya-sugawara-57275a28",
+    "title": "Tatsuya Sugawara - CHRO - LinkedIn",
+    "snippet": "International CHRO with 35 years of experience driving organizational change across all levels—from factory floors to corporate HQs and global joint ...",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Tatsuya Sugawara",
+        "title": "CHRO",
+        "company": null,
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/tatsuya-sugawara-57275a28"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "CHRO with 35 years of experience is a perfect match for role and seniority.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jp.linkedin.com/in/hirokazu-tanaka-8236b417",
+    "title": "Hirokazu Tanaka - CHRO at LegalOn Technologies | LinkedIn",
+    "snippet": "Chief Human Resources Officer · Executive General Manager · Deputy General Manager · Executive Manager · Head of HR · Global HR General Manager · Global HR Director.",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Hirokazu Tanaka",
+        "title": "CHRO",
+        "company": "LegalOn Technologies",
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/hirokazu-tanaka-8236b417"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "CHRO at LegalOn Technologies is a perfect match for role and seniority, likely a global company.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/202311/index.php",
+    "title": "日本の人事部「ＨＲカンファレンス2023-秋-」",
+    "snippet": "株式会社日立製作所 執行役専務/CHRO 人財統括本部長 コーポレートコミュニケーション責任者",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [
+      {
+        "name": null,
+        "title": "執行役専務/CHRO 人財統括本部長 コーポレートコミュニケーション責任者",
+        "company": "株式会社日立製作所",
+        "source_type": "event_speaker",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "CHRO at Hitachi is a perfect match for role and seniority, and Hitachi is a global company.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/202211/index.php",
+    "title": "日本の人事部「ＨＲカンファレンス2022-秋-」",
+    "snippet": "株式会社カインズ 執行役員 CHRO(最高人事責任者） 兼 人事戦略本部長 兼 CAINZアカデミア学長/株式会社ハンズ 取締役",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [
+      {
+        "name": null,
+        "title": "執行役員 CHRO(最高人事責任者） 兼 人事戦略本部長 兼 CAINZアカデミア学長/株式会社ハンズ 取締役",
+        "company": "株式会社カインズ",
+        "source_type": "event_speaker",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "CHRO at Cainz is a perfect match for role and seniority, though Cainz's global presence is unclear.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/202411/featured-sessions.php",
+    "title": "注目のセッション｜日本の人事部「ＨＲカンファレンス2024-秋-」",
+    "snippet": "<strong>木下 達夫氏</strong> パナソニック ホールディングス株式会社 執行役員 グループCHRO",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [
+      {
+        "name": "木下 達夫",
+        "title": "執行役員 グループCHRO",
+        "company": "パナソニック ホールディングス株式会社",
+        "source_type": "event_speaker",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "Group CHRO at Panasonic Holdings is a perfect match for role and seniority, and Panasonic is a global company.",
+    "flag": "green"
+  },
+  {
+    "url": "https://twitter.com/kinotatsuo",
+    "title": "木下達夫 / Tatsuo Kinoshita Panasonic Group CHRO - X",
+    "snippet": "日本の人事部主催HRアワード「企業人事部門最優秀個人賞」を受賞しました。人事の成果は個人でできるものはなく、この賞は私がこれまで関わった組織変革を一緒に成し遂げた ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "木下達夫",
+        "title": "CHRO",
+        "company": "Panasonic Group",
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "Perfect match for CHRO at a large Japanese company, likely with global operations.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.facebook.com/metlife.co.jp/posts/%E5%BD%93%E7%A4%BE%E3%81%AE%E5%9F%B7%E8%A1%8C%E5%BD%B9-%E5%B8%B8%E5%8B%99-%E3%83%81%E3%83%BC%E3%83%95%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B7%E3%82%BA%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B5%E3%83%BCchro%E3%81%AE%E5%90%91%E4%BA%95%E9%BA%97%E5%AD%90%E3%81%8C%E8%87%AA%E8%BA%AB%E3%81%8C%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%8B%E3%82%89chro%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E5%BD%A2%E6%88%90%E3%82%84%E5%AD%90%E8%82%B2%E3%81%A6%E3%82%84%E4%BB%8B%E8%AD%B7%E3%81%AB%E3%81%BE%E3%81%A4%E3%82%8F%E3%82%8B%E4%BD%93%E9%A8%93/700655372475734/",
+    "title": "当社の執行役 常務 チーフヒューマンリソーシズオフィサー（CHRO ...",
+    "snippet": "当社の執行役 常務 チーフヒューマンリソーシズオフィサー（CHRO）の向井麗子が、自身が社会人になってからCHROになるまでのキャリア形成や、子育てや ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "向井 麗子",
+        "title": "CHRO",
+        "company": "MetLife",
+        "source_type": "article",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/takashi-kodama-9a1915213"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 10,
+    "score_reason": "Perfect match for CHRO at a global company (MetLife) in Japan.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jp.linkedin.com/in/shoko-nagayama-54136410",
+    "title": "Shoko Nagayama - Head of HR, Japan | LinkedIn",
+    "snippet": "Head of HR, Japan · 職歴: Philips · 学歴: Chuo Graduate School of Strategic Management · 場所: 東京 · LinkedInのつながり500人以上。10億人のメンバーを擁する ...",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Shoko Nagayama",
+        "title": "Head of HR, Japan",
+        "company": null,
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "head",
+        "linkedin_url": "https://jp.linkedin.com/in/shoko-nagayama-54136410"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 9,
+    "score_reason": "Head of HR, Japan at Philips is a strong match for role and location, likely multinational.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/canly/post_articles/1043322",
+    "title": "CHRO就任のお知らせ！ | 株式会社カンリー - Wantedly",
+    "snippet": "お知らせ2026/2/2カンリー、執行役員CHRO就任のお知らせ株式会社カンリー（本社：東京都品川区、代表取締役：辰巳 衛 / 秋山 祐太朗、以下カンリー）は、 ...",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": null,
+        "title": "執行役員CHRO",
+        "company": "株式会社カンリー",
+        "source_type": "press_release",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 9,
+    "score_reason": "CHRO at Canly is a strong match for role and seniority, and the company is based in Tokyo.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/company_4213926/post_articles/973502",
+    "title": "生成AI領域でゼロからの組織づくり。CHROが語る「人」を大切に ...",
+    "snippet": "今回は、CHROの橋本佳介さんにインタビュー。 大学時代の起業経験から大手外資系コンサルティングファームでの人事経験まで、多彩なキャリアを持つ橋本 ...",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "橋本佳介",
+        "title": "CHRO",
+        "company": null,
+        "source_type": "article",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/%E4%BD%B3%E4%BB%8B-%E6%A9%8B%E6%9C%AC-1500b5158"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 9,
+    "score_reason": "CHRO title is a perfect match, and the mention of a 'major foreign consulting firm' suggests international experience.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.wantedly.com/id/show_ishikawa_b",
+    "title": "石川 昇のプロフィール - Wantedly",
+    "snippet": "石川 昇. 株式会社ミツカル / COO/CHRO 東京都. 71つながり20フォロワー ... 現在. HR事業領域・人事の統括. 人事部/CHRO現在. 2023年9月. 成長フェーズにおける人事部 ...",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "石川 昇",
+        "title": "COO/CHRO",
+        "company": "株式会社ミツカル",
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/%E6%98%87-%E7%9F%B3%E5%B7%9D-16257712b"
+      },
+      {
+        "name": "石川 昇",
+        "title": "CHRO",
+        "company": null,
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/%E6%98%87-%E7%9F%B3%E5%B7%9D-16257712b"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 9,
+    "score_reason": "COO/CHRO title is a strong match, and the candidate is in Tokyo with experience in a growth phase.",
+    "flag": "green"
+  },
+  {
+    "url": "https://jp.linkedin.com/in/naoki-tanaka-6875a4b3",
+    "title": "Naoki Tanaka - Conrad Osaka - Director of Human Resources",
+    "snippet": "Conrad Osaka - Director of Human Resources · HR Generalist · 職歴: Conrad Hotels & Resorts · 学歴: 同志社大学 · 場所: 兵庫県 · LinkedInのつながり500人 ...",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Naoki Tanaka",
+        "title": "Director of Human Resources",
+        "company": "Conrad Osaka",
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "director",
+        "linkedin_url": "https://jp.linkedin.com/in/naoki-tanaka-6875a4b3"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 8,
+    "score_reason": "Director of Human Resources at Conrad Osaka is a strong match for role and location.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.wantedly.com/id/kazutoshi_akioka",
+    "title": "秋岡 和寿のプロフィール - Wantedly",
+    "snippet": "秋岡 和寿 ; 株式会社BookLive1年間. 人事総務部長現在. 2024年6月 · 現在 ; 株式会社HIROTSUバイオサイエンス1年間. 執行役員CHRO兼人事部長. 2023年3月 · 2024年3月 ; 株式 ...",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "秋岡 和寿",
+        "title": "人事総務部長",
+        "company": "株式会社BookLive",
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "head",
+        "linkedin_url": null
+      },
+      {
+        "name": "秋岡 和寿",
+        "title": "執行役員CHRO兼人事部長",
+        "company": "株式会社HIROTSUバイオサイエンス",
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 8,
+    "score_reason": "CHRO title is a strong match, but the candidate recently changed jobs and the company's international presence is unclear.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.wantedly.com/id/nobuaki_kito",
+    "title": "鬼頭 伸彰のプロフィール - Wantedly",
+    "snippet": "鬼頭 伸彰. 弁護士ドットコム株式会社 / CHO 兼 執行役員 人事本部長 東京都 六本木一丁目. 8つながり9フォロワー. プロフィール · ストーリー · 性格 · つながり.",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "鬼頭 伸彰",
+        "title": "CHO 兼 執行役員 人事本部長",
+        "company": "弁護士ドットコム株式会社",
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 8,
+    "score_reason": "CHO (Chief HR Officer) and Executive Officer titles are a strong match, and the company is based in Tokyo.",
+    "flag": "green"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/sumaten/post_articles/1025442",
+    "title": "「経営と人をつなぐ」挑戦をスマテンで。入社1か月で執行役員 ...",
+    "snippet": "多様なキャリアを経てスマテンへ転身し、入社1か月で執行役員CHROへ。“変化をつくる側”として、組織の未来にどう向き合っているのか。",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": null,
+        "title": "執行役員CHRO",
+        "company": "スマテン",
+        "source_type": "article",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": null
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 8,
+    "score_reason": "CHRO title is a strong match, and the candidate recently became an executive officer, indicating potential for growth.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://jp.linkedin.com/in/mitsunori-k-54607880/en",
+    "title": "Mitsu K. - HR Director, Head of People - LinkedIn",
+    "snippet": "HR Director, Head of People · Nearly 30 years experience at HR functions, I have covered a wide range of duties, such as recruiting with full-cycle ...",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Mitsu K.",
+        "title": "HR Director, Head of People",
+        "company": null,
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "director",
+        "linkedin_url": "https://jp.linkedin.com/in/mitsunori-k-54607880/en"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 7,
+    "score_reason": "HR Director and Head of People title is relevant, but company is not specified and experience is extensive.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/company_1804338/post_articles/1029941",
+    "title": "【受賞報告】常務執行役員/CHROの村田宗一郎が次世代リーダーの ...",
+    "snippet": "【受賞報告】常務執行役員/CHROの村田宗一郎が次世代リーダーのアワード「Japan CxO Award 2025」ローカルリーダー部門の最優秀賞を獲得！ · 受賞理由 · 村田の受賞コメント.",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "村田宗一郎",
+        "title": "常務執行役員/CHRO",
+        "company": null,
+        "source_type": "press_release",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://www.linkedin.com/pub/dir/%E5%AE%97%E4%B8%80%E9%83%8E/%E6%9D%91%E7%94%B0"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 7,
+    "score_reason": "CHRO title is a strong match, but the company is not specified and appears to be domestic.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.wantedly.com/id/makoto_ariga_f",
+    "title": "有賀 誠のプロフィール - Wantedly",
+    "snippet": "常務執行役員 人事本部長. 2003年6月 - 2005年1月. 採用、教育、活性化、労務、人事制度、コンプライアンス. 日本General Motors/日本Delphi株式会社7年間. 取締役 副社長 ...",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "有賀 誠",
+        "title": "常務執行役員 人事本部長",
+        "company": null,
+        "source_type": "profile",
+        "employment_type": "employee",
+        "seniority": "vp",
+        "linkedin_url": "https://www.linkedin.com/pub/dir/%E8%AA%A0/%E6%9C%89%E8%B3%80"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 7,
+    "score_reason": "Senior Executive Officer and Head of HR are relevant titles, and previous experience at 'Japan General Motors' is a plus, but current company is unspecified.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.facebook.com/auba.eiicon.net/posts/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEeiicon%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E5%B8%B8%E5%8B%99%E5%9F%B7%E8%A1%8C%E5%BD%B9%E5%93%A1-chro%E3%81%AE%E6%9D%91%E7%94%B0-%E5%AE%97%E4%B8%80%E9%83%8E%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%81%AE%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A8%E3%81%AA%E3%82%8Bcxo%E3%82%92%E8%A1%A8%E5%BD%B0%E3%81%99%E3%82%8Bjapan-cxo-award-2025/1295741102591807/",
+    "title": "株式会社eiiconプレスリリース  常務執行役員 CHROの村田 宗一郎 ...",
+    "snippet": "株式会社eiiconプレスリリース 常務執行役員 CHROの村田 宗一郎、次世代リーダーのロールモデルとなるCxOを 表彰する「Japan CxO Award 2025 powered by ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "村田 宗一郎",
+        "title": "CHRO",
+        "company": "eiicon",
+        "source_type": "press_release",
+        "employment_type": "employee",
+        "seniority": "c_level",
+        "linkedin_url": "https://www.linkedin.com/pub/dir/%E5%AE%97%E4%B8%80%E9%83%8E/%E6%9D%91%E7%94%B0"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 7,
+    "score_reason": "CHRO title is a strong match, and the candidate is recognized as a leader, but the company's international scope is unclear.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/company_4528764/post_articles/917010",
+    "title": "挑戦を評価する環境―成果に応じたチャンスが広がるパートナーズ ...",
+    "snippet": "株式会社パートナーズ CHRO（最高人事責任者）清家良太プロフィール大学時代は体育会フィギュアスケート部で主将を務め、部の存続と成長に尽力。",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "清家良太",
+        "title": "CHRO（最高人事責任者）",
+        "company": "株式会社パートナーズ",
+        "source_type": "article",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/ryotaseikega0312"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 6,
+    "score_reason": "CHRO title is a strong match, but the company appears to be domestic.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://jp.linkedin.com/in/yoshiko-arai-01878785",
+    "title": "Yoshiko Arai - グロースエクスパートナーズ株式会社 人事部長 Head ...",
+    "snippet": "グロースエクスパートナーズ株式会社 人事部長 Head of Human Resources · 職歴: グロースエクスパートナーズ株式会社 · 学歴: 関西学院大学 / Kwansei Gakuin ...",
+    "site_group": "professional_profiles",
+    "intent": "Find senior HR leaders on LinkedIn in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "Yoshiko Arai",
+        "title": "人事部長 Head of Human Resources",
+        "company": "グロースエクスパートナーズ株式会社",
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "head",
+        "linkedin_url": "https://jp.linkedin.com/in/yoshiko-arai-01878785"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 5,
+    "score_reason": "Head of Human Resources title is relevant, but the company appears to be domestic and the role might be below Director level.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.wantedly.com/companies/company_7150435/post_articles/1038494",
+    "title": "人事部長が語る組織づくりと次なる挑戦とは？    「人」と「組織 ...",
+    "snippet": "こんにちは！ ピクシーダストテクノロジーズ株式会社 人事部の本橋です。 今回は、弊社人事部長 佐藤にインタビューを実施し、",
+    "site_group": "social",
+    "intent": "Find senior HR professionals on Wantedly, a Japanese professional networking site.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "佐藤",
+        "title": "人事部長",
+        "company": "ピクシーダストテクノロジーズ株式会社",
+        "source_type": "article",
+        "employment_type": "employee",
+        "seniority": "head",
+        "linkedin_url": "https://www.linkedin.com/pub/dir/%E4%BD%90%E8%97%A4/+"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 5,
+    "score_reason": "HR Director title is relevant, but the company appears to be domestic and the seniority might be below the target.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://twitter.com/sj_tokyojinji/status/1892731227108737116",
+    "title": "助けてください！！ うちの執行役員が最近SNSを頑張ってるのです ...",
+    "snippet": "桜十字グループ人事部(東京)'s Image 1 on X · 桜十字グループ人事部(東京)'s Image 2 on X. 丸林哲也 | 桜十字グループCHRO profile. 丸林哲也 | 桜十字 ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "丸林哲也",
+        "title": "CHRO",
+        "company": "桜十字グループ",
+        "source_type": "profile",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://jp.linkedin.com/in/tetsuyamarubayashi-506ba0228"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 5,
+    "score_reason": "CHRO role is a good match, but the company is likely domestic, and the individual recently changed jobs.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://www.facebook.com/KennosukeTanaka/posts/%E4%BC%9A%E5%A0%B4%E3%81%A7%E3%81%8A%E4%BC%9A%E3%81%84%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86-pivot%E3%81%A7%E3%82%82%E5%85%AC%E9%96%8B%E4%BA%88%E5%AE%9A%E6%BA%90%E7%94%B0%E3%81%95%E3%82%93%E3%81%AE%E5%B8%B8%E5%8B%99%E5%9F%B7%E8%A1%8C%E5%BD%B9%E5%93%A1-%E5%85%BC-chro-%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E7%B5%B1%E6%8B%AC-%E5%B0%B1%E4%BB%BB%E3%81%AE%E3%81%8A%E7%A5%9D%E3%81%84%E3%82%82%E5%85%BC%E3%81%AD%E3%81%A6/10241151071098514/",
+    "title": "会場でお会いしましょう！ PIVOTでも公開予定 源田さんの常務執行 ...",
+    "snippet": "会場でお会いしましょう！ PIVOTでも公開予定源田さんの常務執行役員 兼 CHRO コーポレート統括 就任のお祝いも兼ねて〜",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [
+      {
+        "name": "源田",
+        "title": "常務執行役員 兼 CHRO コーポレート統括",
+        "company": null,
+        "source_type": "other",
+        "employment_type": "unknown",
+        "seniority": "c_level",
+        "linkedin_url": "https://www.linkedin.com/pub/dir/%E7%94%B0/%E6%BA%90"
+      }
+    ],
+    "is_person_result": true,
+    "relevance_score": 4,
+    "score_reason": "CHRO role is relevant, but the company is not specified and may be domestic.",
+    "flag": "yellow"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/202105/index.php",
+    "title": "日本の人事部「ＨＲカンファレンス2021-春-」",
+    "snippet": "人と組織を生かすヒントがここに。講演詳細はこちら · おかげさまで「ＨＲカンファレンス2021-春-」は、 大変多くの方にご参加いただき、終了いたしました。",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://event-page.jp/hrfc",
+    "title": "HR FUTURE CONFERENCE 2026 春 in 東京(HR フューチャー カンファレンス) ｜ビジネスカンファレンスイベント",
+    "snippet": "<strong>HR FUTURE CONFERENCE</strong>では、トップリーダーたちによる講演、課題解決のヒントが得られる企業セミナー、 人事・HR領域の最新トレンドを共有するネットワーキングを実施、 実務に直結す...",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/report/r202505/index.php",
+    "title": "ＨＲカンファレンス2025-春- 開催レポート | 日本の人事部「ＨＲカンファレンス」",
+    "snippet": "CHROが語る、人的資本経営3年目の要諦 ～人材戦略を実現に導く「実行力」の高め方～",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/report/r202111/index.php",
+    "title": "ＨＲカンファレンス2021-秋- 開催レポート | 日本の人事部「ＨＲカンファレンス」",
+    "snippet": "全216講演から人気のセッションを 講演動画とレポート形式で振り返ります。 · <strong>2021年11月16日（火）・17日（水）・18日（木）・19日（金）・25日（木）・26日（金）</strong>に、日本最大のH...",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://jinjibu.jp/hr-conference/202111/index.php",
+    "title": "日本の人事部「ＨＲカンファレンス2021-秋-」",
+    "snippet": "HRのすべてがここに。講演詳細はこちら · おかげさまで「ＨＲカンファレンス2021-秋-」は、 大変多くの方にご参加いただき、終了いたしました。",
+    "site_group": "conference_and_events",
+    "intent": "Find HR professionals speaking at events on platforms like Connpass.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://hrnote.jp/contents/b-contents-3483/",
+    "title": "CHROとは？求められる役割や業務、必要なスキルを導入企業の事例付きで紹介 | HR NOTE",
+    "snippet": "CHROは最高人事責任者と訳されます。他にも、CPO（Chief People Officer）と呼ばれることもあるようです。",
+    "site_group": "content_and_signals",
+    "intent": "Find HR leaders sharing presentations on platforms like Speaker Deck.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://shareboss.net/contents/feature/what-is-chro/",
+    "title": "CHROとは？ 役割、人事部長との違い、求められるスキル、CHRO人材確保のポイントを解説 | シェアボス",
+    "snippet": "CHROとは、Chief Human Resource Officerの略であり「最高人事責任者」と訳される人事労務の最高責任者だ。CHO（Chief Human Officer）やCPO（Chief People Officer）と表記される場合もあるが、ほぼ同義と考えてよいだろう。どの呼称であれ、ヒト・モノ・カネという経営資源の中で「ヒト」を司る役職であるということに違いはない。",
+    "site_group": "content_and_signals",
+    "intent": "Find HR leaders sharing presentations on platforms like Speaker Deck.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://jinjibu.jp/",
+    "title": "『日本の人事部』 - HRで会社を伸ばす",
+    "snippet": "日本を代表するCHROが、次代のCHROを育成 「日本の人事部 CHRO養成塾」第3期 エントリー受付中[2/10]",
+    "site_group": "content_and_signals",
+    "intent": "Find HR leaders sharing presentations on platforms like Speaker Deck.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://it-trend.jp/labor_management_system/article/481-358",
+    "title": "CHROとは？人事部長との違いや求められるスキルを解説 | ITトレンド",
+    "snippet": "CHROとは、<strong>Chief Human Resource Officerの略</strong>です。日本語では最高人事責任者と呼ばれます。その名のとおり、人事の責任者であるとともに企業経営における人・組織に関する責任者です。",
+    "site_group": "content_and_signals",
+    "intent": "Find HR leaders sharing presentations on platforms like Speaker Deck.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.ashita-team.com/jinji-online/organization/14270",
+    "title": "CHROとは？CEOとの違いや役割、必要とされるスキルなど紹介 | あしたの人事オンライン",
+    "snippet": "CHRO（Chief Human Resources Officers）は、日本語で「最高人財責任者」を指す言葉です。経営陣の一員として人事関連の業務やチーム統括に最高の権限を持ち、社内人材の活用や採用・人員配置に責任を負うポジションです。",
+    "site_group": "content_and_signals",
+    "intent": "Find HR leaders sharing presentations on platforms like Speaker Deck.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.hrbrain.jp/media/human-resources-management/chro",
+    "title": "CHROとは？役割と必要なスキルや人事部長との違いも解説 | HR大学",
+    "snippet": "人材データの一元管理を実現し、あらゆる人事施策の実行をサポート · CHROとは「最高人事責任者」を意味し、CHOとも言われます。",
+    "site_group": "conference_and_events",
+    "intent": "Find senior HR leaders on HR-specific event/content sites in Japan.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.hrpro.co.jp/series_detail.php?t_no=2476",
+    "title": "「CHRO」の役割や人事部長との違いとは？ 必要なスキルや能力、企業事例なども解説 | 人事のプロを支援するHRプロ",
+    "snippet": "「CHRO」とは、<strong>Chief Human Resource Officerの略称</strong>であり、日本語で「最高人事責任者」を意味する。経営陣の一人として戦略人事を実行するとともに、人事関連のすべての業務に責任を持...",
+    "site_group": "conference_and_events",
+    "intent": "Find senior HR leaders on HR-specific event/content sites in Japan.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www2.deloitte.com/jp/ja/pages/human-capital/articles/hcm/global-hr-journey-16.html",
+    "title": "グローバル企業におけるHRBPのあり方｜サービス：人事・組織コンサルティング｜デロイト トーマツ グループ｜Deloitte",
+    "snippet": "HRBPの直属の上司（「ソリッド」のレポート関係）は、配置される事業・機能に対してではなく、人事（例えばCHROであることが一般的である（つまり、HRBPの所属はあくまで人事部門）。他方、HRBPの使命としては、当該の事業・機能への貢献であることから、事業・機能の長との間には人事に次ぐレポート関係（すなわち「ドッテド」のレポート関係）であることも欧米先進企業では多い。",
+    "site_group": "conference_and_events",
+    "intent": "Find senior HR leaders on HR-specific event/content sites in Japan.",
+    "engine": "brave",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.facebook.com/kaonavi/posts/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E6%83%85%E5%A0%B1312chro%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A02026chro%E3%81%AE%E3%81%82%E3%82%8B%E3%81%B9%E3%81%8D%E5%A7%BF%E3%81%AB%E7%9D%80%E7%9B%AE%E3%81%97%E6%80%9D%E8%80%83%E6%B3%95%E3%82%84%E8%A1%8C%E5%8B%95%E3%82%92%E5%AE%9F%E8%B7%B5%E8%80%85%E3%81%AE%E5%A3%B0%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%E6%9C%AC%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AB%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%9C%AC%E9%83%A8%E9%95%B7%E3%81%AE/1523836419751221/",
+    "title": "＼イベント情報  ／ 【3/12】CHROマネジメント・フォーラム2026 ...",
+    "snippet": "イベント情報 ／ 【3/12】CHROマネジメント・フォーラム2026 CHROのあるべき姿に着目し、思考法や行動を実践者の声から学ぶ本イベントに、 ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://twitter.com/sj_tokyojinji",
+    "title": "桜十字グループ人事部(東京) (@sj_tokyojinji) / Posts / X",
+    "snippet": "「社会の必要を満たしたい」桜十字グループ東京人事部 医療・介護・人材・海外・ホテル・スポーツ・さまざまな事業を展開し常識に縛られない「+1」を作り続ける会社。",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.facebook.com/omotenashipg/posts/hiring%E4%BA%BA%E4%BA%8B%E8%B2%AC%E4%BB%BB%E8%80%85%E6%80%A5%E6%88%90%E9%95%B7%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%ABhr%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E6%9D%90%E7%B4%B9%E4%BB%8B%E4%BA%8B%E6%A5%AD%E3%82%92%E3%83%AA%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E4%BA%BA%E4%BA%8B%E8%B2%AC%E4%BB%BB%E8%80%85%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3%E7%B5%8C%E5%96%B6%E7%9B%B4%E4%B8%8B%E3%81%A7%E6%8E%A1%E7%94%A8%E6%88%A6%E7%95%A5%E3%81%8B%E3%82%89%E5%88%B6%E5%BA%A6%E8%A8%AD%E8%A8%88%E3%81%BE%E3%81%A7%E6%8B%85%E3%81%84%E4%BA%8B%E6%A5%AD%E6%88%90%E9%95%B7%E3%81%A8%E7%A4%BE%E4%BC%9A%E8%AA%B2%E9%A1%8C%E8%A7%A3/122139046904413138/",
+    "title": "Hiring!! 【人事責任者】急成長グローバルHRベンチャー 外国人人材 ...",
+    "snippet": "... 東京（新宿エリア） 勤務時間：9:00〜18:00 年間休日：120日 ... Head of People – Global HR Startup Lead recruitment and HR strategy ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://www.facebook.com/MannetGlobal/posts/%F0%9D%97%9B%F0%9D%97%A5-%F0%9D%97%A7%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%B1%F0%9D%98%80-%F0%9D%97%96%F0%9D%97%9B%F0%9D%97%A5%F0%9D%97%A2-%F0%9D%97%A3%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AE%F0%9D%9F%B2-%F0%9D%97%94%F0%9D%97%B0%F0%9D%97%B0%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%BD%F0%9D%97%AE%F0%9D%97%B0%F0%9D%98%81-%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%9B%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%98%F0%9D%97%BF%F0%9D%97%AEin-20/749052331592375/",
+    "title": "Accelerating Impact in the Human-Machine ... - Facebook",
+    "snippet": "HR Trends & CHRO Priorities 2026: Accelerating Impact in the Human-Machine Era In 2026, HR crosses a critical threshold: moving beyond ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  },
+  {
+    "url": "https://twitter.com/cyudo",
+    "title": "西田政之 (@cyudo) / Posts / X",
+    "snippet": "理論や事例だけではなく“実践”に軸足を置き『日本の人事部』と日本を代表するCHROが、次代のCHROを育て上げます。講義以外にも、オンライン勉強会や塾生 ...",
+    "site_group": "social",
+    "intent": "Find senior HR leaders on Twitter and Facebook in Japan, excluding recruiters.",
+    "engine": "serper",
+    "people": [],
+    "is_person_result": false,
+    "relevance_score": 0,
+    "score_reason": "No person identified in result"
+  }
+]
