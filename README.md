@@ -49,7 +49,7 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-### API keys
+### 1. Add API keys
 
 Create a `.env` file in the project root:
 
@@ -65,38 +65,40 @@ SERPER_API_KEY=your_key_here
 | `BRAVE_API_KEY` | [brave.com/search/api](https://brave.com/search/api/) | 2000 queries/month |
 | `SERPER_API_KEY` | [serper.dev](https://serper.dev) | 2500 queries on signup |
 
-### Run
-
-#### With uv
+### 2. Install dependencies
 
 ```bash
-uv run scrape --keywords "CHRO, HR Director, Tokyo" --dry-run          # preview queries, no API calls
-uv run scrape --keywords "CHRO, HR Director, Tokyo"                    # brave only
-uv run scrape --keywords "CHRO, HR Director, Tokyo" --engines brave serper  # both engines (best)
+uv sync
 ```
 
-#### Without uv
+Or without uv:
 
 ```bash
+python -m venv .venv
 source .venv/bin/activate
+pip install -e .
+```
 
-# Dry run — preview generated queries, no API calls, free
-python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo" --dry-run
+### 3. Run
 
-# Brave only
-python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo"
+```bash
+# Dry run first — preview queries, no API calls, free
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper \
+  --dry-run
 
-# Both engines
-python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo, Osaka" --engines brave serper
+# Full run with both engines (best results)
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper
 
-# Only specific site groups
-python -m combined_scraper.run --keywords "CHRO, Tokyo" --groups professional_profiles social
-
-# Custom results count per query
-python -m combined_scraper.run --keywords "CHRO, Tokyo" --engines brave serper --results-per-query 20
-
-# Google Doc as keyword source
-python -m combined_scraper.run --doc-url "https://docs.google.com/document/d/.../edit" --engines brave serper
+# Follow-up run — exclude already-found candidates
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper \
+  --exclude-csv combined_scraper/results/hybrid_results_20260216_022720.csv \
+  --output-name hr_candidates_round2
 ```
 
 ### CLI flags
@@ -110,15 +112,22 @@ python -m combined_scraper.run --doc-url "https://docs.google.com/document/d/...
 | `--results-per-query` | 10 | Results per query per engine |
 | `--dry-run` | off | Preview queries only |
 | `--output-name` | timestamped | Custom output filename |
+| `--exclude-csv` | — | Previous results CSV — skips already-found people/URLs
 
-## Output
+### CSV columns
 
-Results saved to `combined_scraper/results/`:
-
-- `hybrid_results_YYYYMMDD_HHMMSS.csv`
-- `hybrid_results_YYYYMMDD_HHMMSS.json`
-
-CSV columns: `relevance_score`, `score_reason`, `url`, `title`, `snippet`, `site_group`, `engine`, `people_names`, `people_titles`, `people_companies`, `people_linkedin`
+| Column | What |
+|--------|------|
+| `relevance_score` | 0-10 relevance score |
+| `score_reason` | Why this score was given |
+| `flag` | `green` (strong match), `yellow` (minor concerns), `red` (excluded) |
+| `url` | Source URL |
+| `people_names` | Extracted names (semicolon-separated) |
+| `people_titles` | Job titles |
+| `people_companies` | Companies |
+| `people_linkedin` | LinkedIn profile URLs |
+| `people_employment_types` | employee / founder / recruiter / etc. |
+| `people_seniorities` | c_level / vp / director / head / etc. |
 
 ## Pipeline
 
@@ -131,18 +140,3 @@ Keywords
   → [4] Gemini scores relevance 0-10 (ai_scorer.py)
   → [5] Export CSV + JSON (run.py)
 ```
-
-## Cost per run
-
-Stays within free tiers:
-
-- ~8 Gemini calls
-- ~3-6 Brave calls
-- ~2-14 Serper calls
-
-## Tech
-
-- Python 3.10+
-- Gemini 2.5 Flash Lite (cheapest model, free tier)
-- Brave Search API + Serper (Google proxy)
-- No scraping — snippet-based extraction + LinkedIn URL lookup

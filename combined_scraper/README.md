@@ -8,39 +8,83 @@ Uses Brave + Serper for URL discovery.
 
 ## Setup
 
-```bash
-source ~/.pyenv/versions/venv3.10/bin/activate
+### 1. Create `.env` in the project root (`sourcing/.env`)
+
+```env
+GEMINI_API_KEY=your_key_here
+BRAVE_API_KEY=your_key_here
+SERPER_API_KEY=your_key_here
 ```
 
-### Required `.env` keys (in project root)
+Get the keys from:
 
-| Key | What | Free tier |
-|-----|------|-----------|
-| `GEMINI_API_KEY` | Query gen, extraction, scoring | 15 RPM / 1000 RPD |
-| `BRAVE_API_KEY` | Broad keyword search | 2000/month |
-| `SERPER_API_KEY` | Targeted site: searches | 2500 on signup |
+| Key | Where to get it | Free tier |
+|-----|-----------------|-----------|
+| `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com) | 15 RPM / 1000 RPD |
+| `BRAVE_API_KEY` | [brave.com/search/api](https://brave.com/search/api/) | 2000 queries/month |
+| `SERPER_API_KEY` | [serper.dev](https://serper.dev) | 2500 queries on signup |
+
+### 2. Install dependencies
+
+```bash
+uv sync
+```
+
+Or without uv:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
 
 ---
 
 ## How to run
 
+All commands run from the `sourcing/` project root.
+
+### First run — initial search
+
 ```bash
-# From the sourcing/ directory:
+# Dry run first — preview generated queries, no API calls, free
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper \
+  --dry-run
 
 # Full run with both engines (best results)
-python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo, Osaka" --engines brave serper
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper
+```
 
-# Brave only (cheaper)
+### Follow-up runs — find MORE candidates
+
+Use `--exclude-csv` to skip already-found people and URLs. This avoids duplicates across runs.
+
+```bash
+python -m combined_scraper.run \
+  --keywords "CHRO, HR Director, Head of HR, VP Human Resources, HRBP Director, Country HR Manager, Head of People, CPO, Tokyo, Osaka, Japan" \
+  --engines brave serper \
+  --exclude-csv combined_scraper/results/hybrid_results_20260216_022720.csv \
+  --output-name hr_candidates_round2
+```
+
+### Other examples
+
+```bash
+# Brave only (cheaper, no site: targeting)
 python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo"
-
-# Dry run — generate queries only, no API calls
-python -m combined_scraper.run --keywords "CHRO, HR Director, Tokyo" --dry-run
 
 # Google Doc keywords instead of inline
 python -m combined_scraper.run --doc-url "https://docs.google.com/document/d/.../edit" --engines brave serper
 
 # Only specific site groups
-python -m combined_scraper.run --keywords "..." --groups professional_profiles social
+python -m combined_scraper.run --keywords "CHRO, Tokyo" --groups professional_profiles social
+
+# Custom results count per query
+python -m combined_scraper.run --keywords "CHRO, Tokyo" --engines brave serper --results-per-query 20
 ```
 
 ### CLI flags
@@ -54,6 +98,7 @@ python -m combined_scraper.run --keywords "..." --groups professional_profiles s
 | `--results-per-query` | 10 | Results per query per engine |
 | `--dry-run` | off | Preview queries, no API calls |
 | `--output-name` | timestamped | Custom output filename |
+| `--exclude-csv` | — | Path to previous results CSV — skips already-found people/URLs |
 
 ---
 
@@ -79,18 +124,13 @@ Keywords → [1] Gemini generates queries
 
 ---
 
-## Output
-
-Files saved to `combined_scraper/results/`:
-- `hybrid_results_YYYYMMDD_HHMMSS.csv`
-- `hybrid_results_YYYYMMDD_HHMMSS.json`
-
 ### CSV columns
 
 | Column | Example |
 |--------|---------|
 | `relevance_score` | 9 |
 | `score_reason` | "CHRO at major Japanese company, Tokyo based" |
+| `flag` | green / yellow / red |
 | `url` | https://jp.linkedin.com/in/person |
 | `title` | Page title |
 | `snippet` | Search snippet |
@@ -100,11 +140,15 @@ Files saved to `combined_scraper/results/`:
 | `people_titles` | HR Country Manager; Head of HR |
 | `people_companies` | Momentive; Biogen |
 | `people_linkedin` | https://jp.linkedin.com/in/... |
+| `people_employment_types` | employee; employee |
+| `people_seniorities` | c_level; head |
+
+### Flag colors
+
+| Flag | Meaning |
+|------|---------|
+| **green** | Strong match — good candidate to approach |
+| **yellow** | Recently changed jobs or minor concerns (domestic company, unclear scope) |
+| **red** | Excluded — recruiter, founder, too senior age, below target seniority |
 
 ---
-
-## Typical API cost per run
-
-- ~8 Gemini calls (free tier: 1000/day)
-- ~3-6 Brave calls (free tier: 2000/month)
-- ~2-14 Serper calls (2500 on signup)
