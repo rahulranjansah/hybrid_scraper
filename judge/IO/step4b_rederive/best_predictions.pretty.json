@@ -1,0 +1,1311 @@
+[
+  {
+    "name": "Shingo Ono",
+    "linkedin_url": "https://jp.linkedin.com/in/shingo-ono-87974154",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Tatsuo Kinoshita",
+    "linkedin_url": "https://www.linkedin.com/in/tatsuokino/",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinichiroh Yamamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/shinichiroh-yamamoto",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Akiko Shirasawa",
+    "linkedin_url": "https://jp.linkedin.com/in/akiko-shirasawa-3b32ab12",
+    "human_flag": "red",
+    "human_remark": "Too senior",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoko Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/yoko-sato-1831273",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Marvin M",
+    "linkedin_url": "https://jp.linkedin.com/in/marvin-m-a5898273",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "approachable_but_wrong_fit",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Yusuke Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-yamada-90733645",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yukiko Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yukiko-ito-6498759",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Mitsuhiro Kageyama",
+    "linkedin_url": "https://jp.linkedin.com/in/mitsuhiro-kageyama-77a8a8191",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Hiroe Onishi",
+    "linkedin_url": "https://jp.linkedin.com/in/hiroe-onishi",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yuichi (Sam) Sakamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/yuichi-sam-sakamoto-283b6331",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Coco(Pingping) Cang",
+    "linkedin_url": "https://jp.linkedin.com/in/coco-pingping-cang-226b1a99",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kazuo Koiso",
+    "linkedin_url": "https://jp.linkedin.com/in/makoto-kambe-94293940",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "age_56_plus",
+      "graduation_before_1989",
+      "interim_or_consulting_recent",
+      "level_too_senior_for_brief"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Sachi Morishita",
+    "linkedin_url": "https://jp.linkedin.com/in/sachi-morishita-46503a9",
+    "human_flag": "red",
+    "human_remark": "too senior",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yusuke Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-yamada-90733645",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Risa Kinoshita",
+    "linkedin_url": "https://jp.linkedin.com/in/risa-kinoshita-26599910",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Dollaya H.",
+    "linkedin_url": "https://jp.linkedin.com/in/dollayah",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search, but interesting profile to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Antonio Herrero Bayo",
+    "linkedin_url": "https://jp.linkedin.com/in/antonio-herrero-bayo-33653155",
+    "human_flag": "red",
+    "human_remark": "Only 3 years in Japan, no previous working experience in Japan, probably not fluent level",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Russell Potter",
+    "linkedin_url": "https://jp.linkedin.com/in/russell-potter-6297025",
+    "human_flag": "red",
+    "human_remark": "It is a recruiter",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "is_recruiter",
+      "not_hr_role",
+      "scope_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Regina Park",
+    "linkedin_url": "https://jp.linkedin.com/in/regina-park-12a43716",
+    "human_flag": "red",
+    "human_remark": "DNC on loxo",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Hozumi Shinichi 穂積　慎一",
+    "linkedin_url": "https://jp.linkedin.com/in/hozumi-shinichi-%E7%A9%82%E7%A9%8D%E3%80%80%E6%85%8E%E4%B8%80-082755185",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search, but interesting profile to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Seitaro Kano",
+    "linkedin_url": "https://jp.linkedin.com/in/seitaro-kano-872025ab",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Antonio Herrero Bayo",
+    "linkedin_url": "https://jp.linkedin.com/in/antonio-herrero-bayo-33653155",
+    "human_flag": "red",
+    "human_remark": "No JP",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Shiho Saito",
+    "linkedin_url": "https://jp.linkedin.com/in/shiho-saito-98990a4a",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "健司 菅野",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%81%A5%E5%8F%B8-%E8%8F%85%E9%87%8E-380aa869",
+    "human_flag": "yellow",
+    "human_remark": "Just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Mami Arakawa",
+    "linkedin_url": "https://jp.linkedin.com/in/mami-arakawa-610808174",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masayuki Uzaki",
+    "linkedin_url": "https://jp.linkedin.com/in/masayuki-uzaki-068151a3",
+    "human_flag": "red",
+    "human_remark": "graduation year 1987",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Nobuko Ushijima",
+    "linkedin_url": "https://jp.linkedin.com/in/nobuko-ushijima-a90742161",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Jun Higuchi",
+    "linkedin_url": "https://jp.linkedin.com/in/jun-higuchi-iiniku",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Akiko Nakamura",
+    "linkedin_url": "https://jp.linkedin.com/in/akiko-nakamura-861274a",
+    "human_flag": "red",
+    "human_remark": "graduation year 1988",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Yusuke Minami",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-minami-63743b123",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Hisashi Tokunaga",
+    "linkedin_url": "https://jp.linkedin.com/in/hisashi-tokunaga-36517b66",
+    "human_flag": "green",
+    "human_remark": "was our candidate",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yukiko N.",
+    "linkedin_url": "https://jp.linkedin.com/in/yukiko-n-b9071b62",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masako Hirano",
+    "linkedin_url": "https://www.linkedin.com/in/masako-hirano-a174b41b/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Shunsuke Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/shunsuke-sato-300a507a",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search but interesting to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Naomi Ishihara Vaughan",
+    "linkedin_url": "https://jp.linkedin.com/in/naomi-ishihara-vaughan-b8b31611",
+    "human_flag": "yellow",
+    "human_remark": "already 55 though",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshi Otsuji",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshi-otsuji-2423b636",
+    "human_flag": "yellow",
+    "human_remark": "already 55 though",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Sachi Morishita",
+    "linkedin_url": "https://www.linkedin.com/in/sachi-morishita-46503a9/",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search but interesting to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinya TAKAHASHI",
+    "linkedin_url": "https://jp.linkedin.com/in/takahshi5431",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Tetsuki Ueda",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%96%AC-%E7%9C%9F%E5%90%8D%E5%9E%A3-4bb11184/en",
+    "human_flag": "yellow",
+    "human_remark": "client, but open to approach",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Mari Sugawara",
+    "linkedin_url": "https://jp.linkedin.com/in/mari-suga",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Regina Park",
+    "linkedin_url": "https://jp.linkedin.com/in/regina-park-12a43716",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Asaka Niwa",
+    "linkedin_url": "https://jp.linkedin.com/in/asaka-niwa-154aa031",
+    "human_flag": "yellow",
+    "human_remark": "client, but open to approach",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinya Hayakawa",
+    "linkedin_url": "https://jp.linkedin.com/in/shinya-hayakawa-3575b7235",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Takayuki Okabe",
+    "linkedin_url": "https://jp.linkedin.com/in/takayuki-okabe-74a47896",
+    "human_flag": "yellow",
+    "human_remark": "Not total fit with our general HR search but strong background",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kentaro Nishi",
+    "linkedin_url": "https://jp.linkedin.com/in/kentaro-nishi-864725",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Bilegzaya Khadkhuu",
+    "linkedin_url": "https://jp.linkedin.com/in/bilegzaya-khadkhuu-23a58999",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "approachable_but_wrong_fit",
+      "multinational_hr_experience",
+      "only_some_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Masako Hirano",
+    "linkedin_url": "https://jp.linkedin.com/in/masako-hirano-a174b41b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Mayumi Nakamura",
+    "linkedin_url": "https://www.linkedin.com/in/mayumi-nakamura-90b09513/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masato Sasaki",
+    "linkedin_url": "https://www.linkedin.com/in/masato-sasaki-53054235/",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "level_too_senior_for_brief",
+      "recently_joined"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Haruka Fukuda",
+    "linkedin_url": "https://jp.linkedin.com/in/haruka-fukuda-a5857514b",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Yoko Shibata",
+    "linkedin_url": "https://jp.linkedin.com/in/yoko-shibata-19024375",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Vincent YVANOFF",
+    "linkedin_url": "https://jp.linkedin.com/in/yvanoffvincent",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "just_changed_jobs",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Asako Matsuura",
+    "linkedin_url": "https://jp.linkedin.com/in/asako-matsuura-a8759265",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yasuhiro Kanno",
+    "linkedin_url": "https://jp.linkedin.com/in/yasuhiro-kanno",
+    "human_flag": "yellow",
+    "human_remark": "quite job hopper profile",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshiko Arai",
+    "linkedin_url": "https://jp.linkedin.com/in/%E7%9B%B4%E4%BA%BA-%E5%B0%8F%E6%9E%97-a5304a15b",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Naoki Tanaka",
+    "linkedin_url": "https://jp.linkedin.com/in/naoki-tanaka-90a16457",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Tsukasa Takamatsu",
+    "linkedin_url": "https://jp.linkedin.com/in/tsukasa-takamatsu",
+    "human_flag": "yellow",
+    "human_remark": "quite job hopper profile",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "SOU TOMISAKA",
+    "linkedin_url": "https://jp.linkedin.com/in/sou-tomisaka-550b51a1",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "insufficient_japanese",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Dollaya H.",
+    "linkedin_url": "https://jp.linkedin.com/in/dollayah",
+    "human_flag": "red",
+    "human_remark": "limited Japanese",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshinori Hashimoto",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshinori-hashimoto-5a264811",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Rosalyn \"Lyn\" Tupaz",
+    "linkedin_url": "https://jp.linkedin.com/in/rosalyn-lyn-tupaz-0185b1222",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoichi Aoyama",
+    "linkedin_url": "https://jp.linkedin.com/in/yoichi-aoyama-54401576",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ]
+  },
+  {
+    "name": "Yoshiko Tanegashima",
+    "linkedin_url": "https://www.linkedin.com/in/yoshiko-tanegashima-ab9948116/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shizuka Takeuchi",
+    "linkedin_url": "https://jp.linkedin.com/in/shizuka-takeuchi-1b3040323",
+    "human_flag": "red",
+    "human_remark": "1987 graduation",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "age_56_plus",
+      "graduation_before_1989",
+      "is_founder_or_self_employed",
+      "level_too_senior_for_brief"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kohta M.",
+    "linkedin_url": "https://jp.linkedin.com/in/kohta-m-8982b130",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Sandy Wang",
+    "linkedin_url": "https://jp.linkedin.com/in/sandy-wang-40800443",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masahiro Tsuruta",
+    "linkedin_url": "https://jp.linkedin.com/in/masahiro-tsuruta-9519a767",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "interim_or_consulting_recent",
+      "is_founder_or_self_employed",
+      "multinational_hr_experience"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masato Ishibashi",
+    "linkedin_url": "https://jp.linkedin.com/in/masato-ishibashi-694a80a4",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kaori HAMADA",
+    "linkedin_url": "https://jp.linkedin.com/in/kaori-hamada-5a22861b7",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Saumil Shah",
+    "linkedin_url": "https://jp.linkedin.com/in/saumilshahjp",
+    "human_flag": "red",
+    "human_remark": "not strong and fit",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Taku Yoshiba",
+    "linkedin_url": "https://jp.linkedin.com/in/taku-yoshiba-106a1b104",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Hiroki Y.",
+    "linkedin_url": "https://jp.linkedin.com/in/hiroki-y-b4264814",
+    "human_flag": "yellow",
+    "human_remark": "not strong enough",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Daito Yamamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/daito-yamamoto-5b68597a",
+    "human_flag": "red",
+    "human_remark": "Not HR",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "only_some_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Mitsuki Iida",
+    "linkedin_url": "https://jp.linkedin.com/in/mitsuki-iida-322720113",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Mari Matsuda",
+    "linkedin_url": "https://jp.linkedin.com/in/mari-matsuda-3b73253b",
+    "human_flag": "red",
+    "human_remark": "too old",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "not_strong_enough",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Ryosuke Murata",
+    "linkedin_url": "https://jp.linkedin.com/in/ryosuke-murata-2a7a145b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Emi Kono",
+    "linkedin_url": "https://jp.linkedin.com/in/emi-kono-2210651a2",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Ayako Okubo",
+    "linkedin_url": "https://jp.linkedin.com/in/ayako-okubo-a2b54313b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Hisako O.",
+    "linkedin_url": "https://jp.linkedin.com/in/hisakootsuka",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ]
+  },
+  {
+    "name": "Junko Umeura",
+    "linkedin_url": "https://jp.linkedin.com/in/junko-umeura-12063113",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Ippei Kinuta",
+    "linkedin_url": "https://jp.linkedin.com/in/ippei-kinuta-4146aa61",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Fumiko Ogame",
+    "linkedin_url": "https://jp.linkedin.com/in/fumiko-ogame-3270a2292",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Misako Hakozaki",
+    "linkedin_url": "https://jp.linkedin.com/in/misako-hakozaki-36b63b41",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "not_strong_enough",
+      "only_some_hr_experience",
+      "scope_mismatch"
+    ]
+  },
+  {
+    "name": "Yoshiaki Yamagami",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshiaki-yamagami-76aa0b83",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Rie Akasaka Sakamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/rie-akasaka-sakamoto-663100178",
+    "human_flag": "yellow",
+    "human_remark": "only 2 tears hr",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "only_some_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shunsuke Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%92%8C%E5%A4%AB-%E5%B0%8F%E7%A3%AF-80a380158",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "TAKEGAWA Ayumi",
+    "linkedin_url": "https://jp.linkedin.com/in/takegawa-ayumi-189604a9",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "scope_mismatch",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Junki Yoneda",
+    "linkedin_url": "https://jp.linkedin.com/in/junki-yoneda-55b14a21b",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Rajiv Sharma",
+    "linkedin_url": "https://jp.linkedin.com/in/rajiv-sharma-238b896",
+    "human_flag": "red",
+    "human_remark": "country manager",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "not_hr_role",
+      "sector_mismatch"
+    ],
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Marina Yamamura",
+    "linkedin_url": "https://jp.linkedin.com/in/marina-yamamura-3b9899279",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "only_some_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ]
+  },
+  {
+    "name": "Akiko Mega",
+    "linkedin_url": "https://jp.linkedin.com/in/akikomega",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  }
+]

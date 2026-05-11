@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Yukiko Yamada",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yukiko has extensive HR leadership experience in multinational environments, including 8+ years in her current role, but her industry background is in financial services and healthcare, not retail."
+  },
+  {
+    "name": "Shiho Saito",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Shiho has strong multinational HRBP experience and long tenure, but her background is in legal and pharma, not the preferred retail/consumer goods sector."
+  },
+  {
+    "name": "Shingo Ono",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Shingo has extensive HR leadership experience, but his current role as a Business Division General Manager and his overall career trajectory suggest he is too senior for an HR Manager role, and his industry experience is in chemical manufacturing, not consumer goods.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoko Sato",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Yoko has 17+ years of HR experience in global companies, aligning well with the HR Manager brief, and her profile indicates strong HRBP and strategic HR skills."
+  },
+  {
+    "name": "Tatsuo Kinoshita",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Tatsuo is a CHRO at Panasonic Holdings with 27 years of experience, making him significantly overqualified for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinichiroh Yamamoto",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Shinichiroh has extensive HR leadership experience in multinational tech and entertainment companies, but his background as a CHRO/Head of HR is too senior for this HR Manager brief, and he recently joined his current role at Google.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  }
+]

@@ -282,7 +282,7 @@ def harvest_urls(
 if __name__ == "__main__":
     test_queries = [
         {
-            "query": 'site:jp.linkedin.com ("HR Director" OR "CHRO") ("Tokyo" OR "東京")',
+            "query": 'site:jp.linkedin.com ("HR Director" OR "HRBP" or "Head of HR") ("Tokyo" OR "東京")',
             "site_group": "professional_profiles",
             "intent": "Find HR leaders on LinkedIn Japan",
             "sites": ["jp.linkedin.com"],

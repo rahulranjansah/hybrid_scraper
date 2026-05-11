@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Mina Goto",
+    "linkedin_url": "https://jp.linkedin.com/in/mina-goto",
+    "predicted_label": "red",
+    "reasoning_tags": ["is_recruiter"],
+    "reasoning_text": "Managing Consultant / Professional Recruiter of HR Positions at RGF Professional — external recruiter, not a candidate pool target.",
+    "strengths": ["Specialized in HR recruitment across Japan", "Bilingual in Japanese and English"],
+    "weaknesses": ["External recruiter, not a candidate for an in-house HR role", "No signal of having held an in-house HR role recently"],
+    "missing_data": ["In-house HR tenure, if any"],
+    "actionable_insights": ["Skip — hard exclusion as recruiter.", "Could be a referral source for other candidates rather than a candidate herself."],
+    "red_bucket": "red_permanent",
+    "reapproach_after": ""
+  },
+  {
+    "name": "Naoki Hiruma",
+    "linkedin_url": "https://jp.linkedin.com/in/naoki-hiruma",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience", "relevant_industry_adjacency"],
+    "reasoning_text": "Manager, Talent Acquisition (Tech) | HRBP (Marketplace) at Mercari — multinational consumer marketplace with AI-native HR transformation focus; HRBP+TA scope matches an HR Manager brief.",
+    "strengths": ["Dual TA + HRBP scope at a consumer-facing multinational (Mercari)", "Explicit focus on AI-native HR transformation — strategic mindset", "Manager-level at an appropriate cluster fit for the brief"],
+    "weaknesses": ["Tech/marketplace rather than fashion/retail — sector adjacency is good but not identical", "TA emphasis may not fully cover employee relations depth"],
+    "missing_data": ["Years in current role; Japanese fluency level", "Budget / team size managed"],
+    "actionable_insights": ["Probe his exposure to employee-relations cases beyond TA scope.", "Ask how his Mercari experience would transfer to a physical-retail consumer-goods environment."]
+  },
+  {
+    "name": "Tomoshige Okazaki",
+    "linkedin_url": "https://jp.linkedin.com/in/tomoshige-okazaki-ba9b8454",
+    "predicted_label": "yellow",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience"],
+    "reasoning_text": "HR Business Partner specializing in Employee Engagement / DE&I / Employee Relations / C&B — solid HRBP profile but snippet doesn't reveal current company or industry.",
+    "strengths": ["Breadth of HRBP disciplines — EE, DE&I, ER, C&B all listed", "Specialist positioning suggests deep HR expertise"],
+    "weaknesses": ["Current company and industry not visible from the snippet", "Impossible to confirm tenure stability"],
+    "missing_data": ["Current employer + industry", "Years at current role", "Bilingual fluency"],
+    "actionable_insights": ["Open his LinkedIn to verify current company and tenure before outreach.", "Confirm whether he has apparel / retail exposure."]
+  },
+  {
+    "name": "Satoshi Yoshitake",
+    "linkedin_url": "https://jp.linkedin.com/in/satoshi-toshi-yoshitake-4349a335",
+    "predicted_label": "yellow",
+    "reasoning_tags": ["level_senior_but_acceptable", "relevant_industry_adjacency", "multinational_hr_experience", "interim_or_consulting_recent"],
+    "reasoning_text": "Ex-Nike, ex-Kate Spade/Tapestry Head of HR — excellent industry fit — but currently positioned as HR consultant + executive coach, which reads as self-employed/consulting rather than in-house.",
+    "strengths": ["Direct fashion/footwear experience (Nike, Kate Spade, Tapestry) — near-perfect industry fit for Crocs", "Head-of-HR title shows level progression", "Strategic HR leader brand visibility"],
+    "weaknesses": ["Currently framed as consultant + coach — may not seek in-house role", "Need to verify recent in-house tenure vs independent work"],
+    "missing_data": ["Whether he'd move to an in-house HR Manager role from consulting", "Current availability / commitment level"],
+    "actionable_insights": ["First call: ask whether he's consulting as a bridge or permanently self-employed.", "If open to in-house again, he's near-perfect for the Crocs brief given the Nike / Tapestry background."]
+  },
+  {
+    "name": "Raul Gumagay",
+    "linkedin_url": "https://jp.linkedin.com/in/raul-gumagay-20ab144b",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience", "sector_mismatch"],
+    "reasoning_text": "Japan Head of HR at HSBC — strong multinational HR leadership with labour relations and compensation depth; financial-services sector is different from consumer goods but skills transfer.",
+    "strengths": ["Japan Head of HR level — fits the brief's upper cluster", "Performance and compensation review ownership at a global bank", "Managing labor relations and ER/IR cases — directly relevant skill"],
+    "weaknesses": ["Financial services not consumer goods", "Head-of-HR title may imply reluctance to take a step back to Manager scope"],
+    "missing_data": ["Current tenure at HSBC", "Interest in moving from banking to consumer goods", "Japanese fluency"],
+    "actionable_insights": ["Probe willingness to shift industries — many banking HR leaders have not done retail.", "Confirm whether he'd accept an HR Manager (vs Head-of-HR) scope."]
+  },
+  {
+    "name": "Wakako Kobayashi",
+    "linkedin_url": "https://jp.linkedin.com/in/wakako-kobayashi-75351611",
+    "predicted_label": "red",
+    "reasoning_tags": ["level_too_senior_for_brief", "multinational_hr_experience"],
+    "reasoning_text": "VP, Japan HR Head at Evident Scientific — VP-level is above the brief's target HR Manager cluster.",
+    "strengths": ["20+ years diverse HR experience", "Strong coaching and talent-management background"],
+    "weaknesses": ["VP title signals C-suite adjacency — too senior for an HR Manager role", "Likely compensation expectations well above the brief"],
+    "missing_data": [],
+    "actionable_insights": ["Skip for Crocs HR Manager; could be a candidate for a future Head-of-HR / CHRO brief if Crocs' needs change."],
+    "red_bucket": "red_permanent",
+    "reapproach_after": ""
+  },
+  {
+    "name": "Kuniko Kitsuda",
+    "linkedin_url": "https://jp.linkedin.com/in/kunikokitsuda",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience"],
+    "reasoning_text": "Strategic HR Business Partner / local HR leadership for Japan and Korea — appropriate level, explicit regional HRBP fit.",
+    "strengths": ["Strategic HRBP for Japan and Korea — regional scope", "Works with senior leadership on capability, structure, culture", "Self-described 'passionate about unleashing the talents and strengths of each individual' aligns with Crocs' tone"],
+    "weaknesses": ["Current employer / industry not fully clear from snippet", "Scope (budget, team size) not detailed"],
+    "missing_data": ["Current company + industry", "Bilingual fluency confirmation", "Recent tenure"],
+    "actionable_insights": ["Verify current role and industry.", "Ask for concrete examples of organisational development she has led."]
+  },
+  {
+    "name": "Ryoko Kashiwagura",
+    "linkedin_url": "https://www.linkedin.com/in/ryoko-kashiwagura-b2369829",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience"],
+    "reasoning_text": "Head of HR / Senior HR Leader / Strategic HRBP — Head-of-HR is inside the Crocs brief's target cluster.",
+    "strengths": ["Head-of-HR positioning covers both leadership and HRBP execution", "Self-brand emphasises strategic HR leadership"],
+    "weaknesses": ["Current company and industry not visible from snippet", "Tenure and team-size unknown"],
+    "missing_data": ["Current employer + industry", "Years at current role", "Bilingual fluency"],
+    "actionable_insights": ["Review her LinkedIn before outreach.", "Confirm fit with consumer-goods / retail sector."]
+  },
+  {
+    "name": "Jonathan Sushida-Bunch, JD and MBA",
+    "linkedin_url": "https://www.linkedin.com/in/jonathan-sushida-bunch",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience", "bilingual_en_ja"],
+    "reasoning_text": "Senior HR Leader (Japan) — HRBP, L&D, Labor Law; explicitly open to senior HR leadership roles including HR Director / Head of HR / HRBP. Japanese surname suggests Japan-resident, bilingual context.",
+    "strengths": ["Explicitly open to new HR Director / Head of HR roles — approachable", "Legal background (JD) adds value for labor law / ER cases", "MBA + JD signals strong analytical + leadership pairing"],
+    "weaknesses": ["Visible job-seeking stance may indicate he's just left a role — verify tenure", "Non-Japanese first name — confirm Japanese fluency level"],
+    "missing_data": ["Current employment status", "Japanese language level", "Recent industry sector"],
+    "actionable_insights": ["First-call priority — he's explicitly receptive.", "Ask about recent industries and language proficiency early."]
+  },
+  {
+    "name": "Koki Murakami",
+    "linkedin_url": "https://www.linkedin.com/in/kokimurakami",
+    "predicted_label": "red",
+    "reasoning_tags": ["hr_to_non_hr_transition", "multinational_hr_experience", "relevant_industry_adjacency"],
+    "reasoning_text": "Director of HR & GA at Loro Piana (LVMH Group) — BUT recently stepped into Managing Director, Loro Piana Japan, which is a non-HR leadership role.",
+    "strengths": ["Recent HR Director experience at luxury retail (LVMH group)", "Known industry (luxury fashion) directly adjacent to Crocs consumer-goods brief"],
+    "weaknesses": ["Now Managing Director (non-HR) — transitioned out of HR", "Unlikely to accept a step-back into an HR Manager role"],
+    "missing_data": ["Whether he still sees himself as an HR leader or has permanently moved to GM"],
+    "actionable_insights": ["Skip for Crocs HR Manager. Could be a connection for referrals among LVMH HR alumni."],
+    "red_bucket": "red_permanent",
+    "reapproach_after": ""
+  },
+  {
+    "name": "Kenji Kato",
+    "linkedin_url": "https://www.linkedin.com/in/kenji-kato-38292154",
+    "predicted_label": "green",
+    "reasoning_tags": ["level_matches_brief", "multinational_hr_experience", "sector_mismatch"],
+    "reasoning_text": "HR Director, Head of HRBP at DHL Supply Chain — HR Director is in the brief's cluster; logistics sector is different from consumer goods but DHL's size implies strong multinational HR experience.",
+    "strengths": ["HR Director + Head-of-HRBP dual title", "DHL is a very large multinational with sophisticated HR function", "Likely strong labor-relations depth (logistics workforce)"],
+    "weaknesses": ["Logistics not consumer goods / retail", "Budget / team-size detail unknown"],
+    "missing_data": ["Tenure at DHL", "Bilingual fluency", "Interest in moving to retail"],
+    "actionable_insights": ["Probe his interest in a sector move to consumer goods.", "Ask for examples of enterprise-wide HR initiatives he's led at DHL."]
+  },
+  {
+    "name": "Yoshiaki Murakami",
+    "linkedin_url": "https://www.linkedin.com/in/yoshiaki-murakami-4309a533",
+    "predicted_label": "golden",
+    "reasoning_tags": ["golden_profile", "level_matches_brief", "multinational_hr_experience", "relevant_industry_adjacency"],
+    "reasoning_text": "HR & GA Director at New Balance Japan — DIRECT footwear sector fit, serves as Chair of American Apparel & Footwear Association 2026-2027 — industry-recognised HR leader in Crocs' exact adjacency.",
+    "strengths": ["New Balance is a direct peer of Crocs in footwear — perfect sector fit", "AAFA Chair 2026-2027 — industry recognition and network", "HR & GA Director title covers both HR and broader admin — broad scope"],
+    "weaknesses": ["Conflict-of-interest risk — New Balance competes with Crocs; NDA / non-solicit terms may apply", "Very recognisable in the footwear industry — Crocs move would be closely watched"],
+    "missing_data": ["Tenure at New Balance", "Current compensation level / willingness to move", "Bilingual fluency"],
+    "actionable_insights": ["High-priority first call but handle discreetly given competitor context.", "Ask about his view on footwear-industry HR trends — AAFA role makes him a natural thought-leader."]
+  },
+  {
+    "name": "Tetsuo Yamagami",
+    "linkedin_url": "https://www.linkedin.com/in/tetsuo-yamagami-b5130a67",
+    "predicted_label": "yellow",
+    "reasoning_tags": ["level_matches_brief", "only_some_hr_experience", "sector_mismatch"],
+    "reasoning_text": "Senior Manager, HR Talent Acquisition at Parexel — appropriate level but pharma sector and TA-focused rather than broad HRBP.",
+    "strengths": ["Senior Manager level matches the brief's cluster", "Large multinational (Parexel, CRO)"],
+    "weaknesses": ["Title is specifically TA (not broad HRBP)", "Pharma sector — less adjacent to consumer goods"],
+    "missing_data": ["Scope beyond TA in recent role", "Bilingual fluency"],
+    "actionable_insights": ["Probe whether he has HRBP / ER experience beyond TA.", "Lower priority than pure HRBP profiles."]
+  }
+]

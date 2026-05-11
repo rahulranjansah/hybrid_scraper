@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.google.com)",
+      "Bash(mkdir -p Plans IO)",
+      "Bash(mv data/* IO/)",
+      "Bash(rmdir data *)",
+      "Bash(curl -sL \"https://docs.google.com/spreadsheets/d/1PTC1fTdjnLtYSgDFTdZDu5JeB48_oRLzdbJvnb4-a38/export?format=xlsx\" -o /tmp/sheet.xlsx)",
+      "Read(//tmp/**)",
+      "Bash(pip install *)",
+      "Bash(uv run python -c ' *)",
+      "Bash(uv run *)",
+      "Bash(env)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
