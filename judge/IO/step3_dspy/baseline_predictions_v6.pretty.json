@@ -1,0 +1,1383 @@
+[
+  {
+    "name": "Shingo Ono",
+    "linkedin_url": "https://jp.linkedin.com/in/shingo-ono-87974154",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Shingo has extensive HR leadership experience, but his current role as a Business Division General Manager and his overall career trajectory suggest he is too senior for an HR Manager role, and his industry experience is in chemical manufacturing, not consumer goods.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Tatsuo Kinoshita",
+    "linkedin_url": "https://www.linkedin.com/in/tatsuokino/",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Tatsuo is a CHRO at Panasonic Holdings with 27 years of experience, making him significantly overqualified for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinichiroh Yamamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/shinichiroh-yamamoto",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Shinichiroh has extensive HR leadership experience in multinational tech and entertainment companies, but his background as a CHRO/Head of HR is too senior for this HR Manager brief, and he recently joined his current role at Google.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Akiko Shirasawa",
+    "linkedin_url": "https://jp.linkedin.com/in/akiko-shirasawa-3b32ab12",
+    "human_flag": "red",
+    "human_remark": "Too senior",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Akiko has extensive HR leadership experience, including Director and VP roles in luxury retail, which is too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoko Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/yoko-sato-1831273",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Yoko has 17+ years of HR experience in global companies, aligning well with the HR Manager brief, and her profile indicates strong HRBP and strategic HR skills."
+  },
+  {
+    "name": "Marvin M",
+    "linkedin_url": "https://jp.linkedin.com/in/marvin-m-a5898273",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "approachable_but_wrong_fit",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Marvin has extensive multinational HR experience in relevant industries, but his recent tenures are short, making him a potential job hopper and not currently approachable."
+  },
+  {
+    "name": "Yusuke Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-yamada-90733645",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Yusuke has extensive HR leadership experience in multinational retail, but his current role as Head of HR at Asahi Group Japan is likely too senior for an HR Manager brief, and he recently joined his current company.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yukiko Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yukiko-ito-6498759",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yukiko has extensive HR leadership experience in multinational environments, including 8+ years in her current role, but her industry background is in financial services and healthcare, not retail."
+  },
+  {
+    "name": "Mitsuhiro Kageyama",
+    "linkedin_url": "https://jp.linkedin.com/in/mitsuhiro-kageyama-77a8a8191",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Mitsuhiro has over 20 years of HR experience, with 13+ years at the Director/Head of HR level in large multinational retail/F&B companies, making him too senior for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Hiroe Onishi",
+    "linkedin_url": "https://jp.linkedin.com/in/hiroe-onishi",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Hiroe Onishi has strong HR experience in multinational pharmaceutical companies, but her current tenure is only 5 months and the industry is not a match for the brief.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yuichi (Sam) Sakamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/yuichi-sam-sakamoto-283b6331",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Yuichi's extensive experience leading HR for large global organizations and his current short tenure of 7 months make him too senior and not approachable for this HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Coco(Pingping) Cang",
+    "linkedin_url": "https://jp.linkedin.com/in/coco-pingping-cang-226b1a99",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Coco has strong multinational HR experience and is bilingual, but her current tenure is short at 10 months, making her not immediately approachable.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kazuo Koiso",
+    "linkedin_url": "https://jp.linkedin.com/in/makoto-kambe-94293940",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "age_56_plus",
+      "graduation_before_1989",
+      "interim_or_consulting_recent",
+      "level_too_senior_for_brief"
+    ],
+    "reasoning_text": "Kazuo's extensive experience (35+ years) and recent interim/consulting roles suggest he is overqualified for an HR Manager position, and his graduation year before 1989 indicates he is likely over 56.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Sachi Morishita",
+    "linkedin_url": "https://jp.linkedin.com/in/sachi-morishita-46503a9",
+    "human_flag": "red",
+    "human_remark": "too senior",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Sachi has extensive HR experience in multinational retail/fashion, but her recent roles as Head of HR and HR Director suggest she is too senior for an HR Manager position.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yusuke Yamada",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-yamada-90733645",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Yusuke's recent roles as VP and Head of HR are too senior for this HR Manager brief, and he has a pattern of short tenures, including recently joining his current role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Risa Kinoshita",
+    "linkedin_url": "https://jp.linkedin.com/in/risa-kinoshita-26599910",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Risa has extensive HR leadership experience in multinational companies and relevant industries, but her current CHRO role is too senior for this HR Manager brief, and she recently joined her current company.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Dollaya H.",
+    "linkedin_url": "https://jp.linkedin.com/in/dollayah",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search, but interesting profile to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Dollaya's extensive experience (18+ years) and current global talent development senior manager role at Mitsubishi Electric suggest a level too senior for an HR Manager position.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Antonio Herrero Bayo",
+    "linkedin_url": "https://jp.linkedin.com/in/antonio-herrero-bayo-33653155",
+    "human_flag": "red",
+    "human_remark": "Only 3 years in Japan, no previous working experience in Japan, probably not fluent level",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Antonio has extensive international HR leadership experience in the retail/fashion industry, including Japan, with long tenure at Inditex, and is bilingual in English and Japanese."
+  },
+  {
+    "name": "Russell Potter",
+    "linkedin_url": "https://jp.linkedin.com/in/russell-potter-6297025",
+    "human_flag": "red",
+    "human_remark": "It is a recruiter",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "is_recruiter",
+      "not_hr_role",
+      "scope_mismatch"
+    ],
+    "reasoning_text": "Russell's profile is heavily focused on executive coaching, organizational development, and retained executive search, rather than the generalist HR Manager responsibilities outlined in the brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Regina Park",
+    "linkedin_url": "https://jp.linkedin.com/in/regina-park-12a43716",
+    "human_flag": "red",
+    "human_remark": "DNC on loxo",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Regina has over 10 years of HR experience, including significant multinational and APAC regional scope, aligning well with the brief's requirements for an HR Manager."
+  },
+  {
+    "name": "Hozumi Shinichi 穂積　慎一",
+    "linkedin_url": "https://jp.linkedin.com/in/hozumi-shinichi-%E7%A9%82%E7%A9%8D%E3%80%80%E6%85%8E%E4%B8%80-082755185",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search, but interesting profile to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Hozumi-san has over 20 years of HR experience, including senior leadership roles and transformation experience, making him too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Seitaro Kano",
+    "linkedin_url": "https://jp.linkedin.com/in/seitaro-kano-872025ab",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Seitaro has strong HRBP experience in multinational luxury retail, aligning well with the brief, but his current tenure is short.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Antonio Herrero Bayo",
+    "linkedin_url": "https://jp.linkedin.com/in/antonio-herrero-bayo-33653155",
+    "human_flag": "red",
+    "human_remark": "No JP",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Antonio has 7+ years of HR experience in multinational retail environments across APAC, aligning well with the brief's requirements for an HR Manager."
+  },
+  {
+    "name": "Shiho Saito",
+    "linkedin_url": "https://jp.linkedin.com/in/shiho-saito-98990a4a",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Shiho has strong multinational HRBP experience and long tenure, but her background is in legal and pharma, not the preferred retail/consumer goods sector."
+  },
+  {
+    "name": "健司 菅野",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%81%A5%E5%8F%B8-%E8%8F%85%E9%87%8E-380aa869",
+    "human_flag": "yellow",
+    "human_remark": "Just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "The candidate has strong multinational HR experience and is bilingual, but their recent tenure at Regeneron was short (April 2023 - Feb 2024), indicating they just changed jobs.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Mami Arakawa",
+    "linkedin_url": "https://jp.linkedin.com/in/mami-arakawa-610808174",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Mami's extensive experience as Head of IBM Japan HRBP organization and IBM Technology HR lead, managing up to 13,000+ employees, makes her significantly overqualified for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masayuki Uzaki",
+    "linkedin_url": "https://jp.linkedin.com/in/masayuki-uzaki-068151a3",
+    "human_flag": "red",
+    "human_remark": "graduation year 1987",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Masayuki has extensive multinational HR experience, but his recent job history shows frequent changes, with his current role being only 1 year and 4 months.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Nobuko Ushijima",
+    "linkedin_url": "https://jp.linkedin.com/in/nobuko-ushijima-a90742161",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Nobuko has extensive HR experience in multinational companies, including Starbucks, which is a relevant industry adjacency, but her current tenure is only 1 year and 3 months.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Jun Higuchi",
+    "linkedin_url": "https://jp.linkedin.com/in/jun-higuchi-iiniku",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Jun has extensive HR experience in a multinational setting, including HRBP and Talent Management roles, but his background is in pharmaceuticals, which is a sector mismatch for Crocs."
+  },
+  {
+    "name": "Akiko Nakamura",
+    "linkedin_url": "https://jp.linkedin.com/in/akiko-nakamura-861274a",
+    "human_flag": "red",
+    "human_remark": "graduation year 1988",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Akiko has extensive multinational HR experience and is bilingual, but her background is in tech/cybersecurity, which is a sector mismatch for Crocs."
+  },
+  {
+    "name": "Yusuke Minami",
+    "linkedin_url": "https://jp.linkedin.com/in/yusuke-minami-63743b123",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yusuke has extensive HR experience, including multinational environments and a current Senior HR Manager role at Amazon, but his industry background is primarily tech, which is a sector mismatch for Crocs."
+  },
+  {
+    "name": "Hisashi Tokunaga",
+    "linkedin_url": "https://jp.linkedin.com/in/hisashi-tokunaga-36517b66",
+    "human_flag": "green",
+    "human_remark": "was our candidate",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Hisashi has extensive HR Director experience in large multinational corporations, which is too senior for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yukiko N.",
+    "linkedin_url": "https://jp.linkedin.com/in/yukiko-n-b9071b62",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Yukiko has strong multinational HR experience and is bilingual, but her recent short tenures and current short tenure at Amazon suggest a job-hopper profile and that she recently joined her current role.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masako Hirano",
+    "linkedin_url": "https://www.linkedin.com/in/masako-hirano-a174b41b/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Masako has over 15 years of HR experience in global environments, including leadership roles and HRBP experience, making her a strong match for the brief's requirements."
+  },
+  {
+    "name": "Shunsuke Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/shunsuke-sato-300a507a",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search but interesting to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Shunsuke's experience as Head of HRBP at Novartis Japan and his previous roles at Astellas Pharma and Coca-Cola indicate a level of seniority beyond an HR Manager, and he recently joined his current role in November 2024.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Naomi Ishihara Vaughan",
+    "linkedin_url": "https://jp.linkedin.com/in/naomi-ishihara-vaughan-b8b31611",
+    "human_flag": "yellow",
+    "human_remark": "already 55 though",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Naomi has extensive HR experience (25+ years) in senior HRBP and leadership roles at multinational companies like Amazon and Nike, which is too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshi Otsuji",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshi-otsuji-2423b636",
+    "human_flag": "yellow",
+    "human_remark": "already 55 though",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Yoshi has extensive HRBP experience in multinational environments with long tenures at each company, making him a strong match for the brief."
+  },
+  {
+    "name": "Sachi Morishita",
+    "linkedin_url": "https://www.linkedin.com/in/sachi-morishita-46503a9/",
+    "human_flag": "yellow",
+    "human_remark": "Not fit for the search but interesting to connect",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Sachi's extensive experience as an HR Director and Head of HRBP in multinational fashion and retail companies makes her overqualified for an HR Manager role, despite her strong industry fit and long tenure.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinya TAKAHASHI",
+    "linkedin_url": "https://jp.linkedin.com/in/takahshi5431",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Shinya has extensive HR experience in multinational retail environments, aligning well with the brief's requirements, but his recent job history shows several short tenures."
+  },
+  {
+    "name": "Tetsuki Ueda",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%96%AC-%E7%9C%9F%E5%90%8D%E5%9E%A3-4bb11184/en",
+    "human_flag": "yellow",
+    "human_remark": "client, but open to approach",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Tetsuki has 21 years of extensive HR experience, including HRBP, TA, L&D, and consulting, with strong alignment to the JD's requirements for strategic HR, OD, talent management, and ER, making him a strong match for the HR Manager role."
+  },
+  {
+    "name": "Mari Sugawara",
+    "linkedin_url": "https://jp.linkedin.com/in/mari-suga",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Mari has strong HRBP experience in multinational tech companies and is bilingual, but her most recent tenure is short and her industry experience is not in retail.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Regina Park",
+    "linkedin_url": "https://jp.linkedin.com/in/regina-park-12a43716",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Regina has over 10 years of stable HR experience in a multinational retail environment, including an APAC HR Manager role, which aligns well with the brief's requirements."
+  },
+  {
+    "name": "Asaka Niwa",
+    "linkedin_url": "https://jp.linkedin.com/in/asaka-niwa-154aa031",
+    "human_flag": "yellow",
+    "human_remark": "client, but open to approach",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Asaka has strong multinational HR experience in relevant industries and her level matches the brief, but her recent tenures at LVMH and Tesla are short, indicating a potential job-hopper profile.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shinya Hayakawa",
+    "linkedin_url": "https://jp.linkedin.com/in/shinya-hayakawa-3575b7235",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Shinya has extensive HR experience, including leadership roles in multinational environments, and is a certified Sharoushi, but recently joined his current company.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Takayuki Okabe",
+    "linkedin_url": "https://jp.linkedin.com/in/takayuki-okabe-74a47896",
+    "human_flag": "yellow",
+    "human_remark": "Not total fit with our general HR search but strong background",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Takayuki's experience as Head of Organization Development leading global OD and HRBP functions for a large organization ($12B, 30,000 employees) is too senior for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kentaro Nishi",
+    "linkedin_url": "https://jp.linkedin.com/in/kentaro-nishi-864725",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Kentaro has over 25 years of HR experience, including leadership roles in Talent Acquisition and HRBP at multinational companies, which makes him too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Bilegzaya Khadkhuu",
+    "linkedin_url": "https://jp.linkedin.com/in/bilegzaya-khadkhuu-23a58999",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "approachable_but_wrong_fit",
+      "multinational_hr_experience",
+      "only_some_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "The candidate has strong experience in Talent Acquisition and HRBP within multinational retail/consumer goods companies, but the brief requires a broader HR Manager scope including employee relations and organizational development, which is not her primary focus."
+  },
+  {
+    "name": "Masako Hirano",
+    "linkedin_url": "https://jp.linkedin.com/in/masako-hirano-a174b41b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Masako has extensive HR leadership experience in multinational environments, but some recent roles show shorter tenures."
+  },
+  {
+    "name": "Mayumi Nakamura",
+    "linkedin_url": "https://www.linkedin.com/in/mayumi-nakamura-90b09513/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Mayumi has extensive HR leadership experience, including Head of HR roles at multinational companies, which makes her too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masato Sasaki",
+    "linkedin_url": "https://www.linkedin.com/in/masato-sasaki-53054235/",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "level_too_senior_for_brief",
+      "recently_joined"
+    ],
+    "reasoning_text": "Masato's extensive 25+ years of HR leadership experience, including regional head roles, makes him significantly overqualified for an HR Manager position, and his recent job change and shorter tenures also raise concerns.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Haruka Fukuda",
+    "linkedin_url": "https://jp.linkedin.com/in/haruka-fukuda-a5857514b",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Haruka has 12+ years of HR experience, including significant time in multinational luxury retail, aligning well with the brief's requirements for an HR Manager."
+  },
+  {
+    "name": "Yoko Shibata",
+    "linkedin_url": "https://jp.linkedin.com/in/yoko-shibata-19024375",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Yoko has over 15 years of HR experience, including HRBP roles in multinational luxury retail companies like Cartier and Prada, demonstrating strong tenure and relevant industry background."
+  },
+  {
+    "name": "Vincent YVANOFF",
+    "linkedin_url": "https://jp.linkedin.com/in/yvanoffvincent",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "just_changed_jobs",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Vincent has strong multinational HR experience in relevant industries, but he recently joined his current role at L'Oréal (6 months ago) and had a shorter tenure at his previous role.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Asako Matsuura",
+    "linkedin_url": "https://jp.linkedin.com/in/asako-matsuura-a8759265",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Asako has extensive HR Director experience in multinational luxury goods, which is too senior for this HR Manager brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yasuhiro Kanno",
+    "linkedin_url": "https://jp.linkedin.com/in/yasuhiro-kanno",
+    "human_flag": "yellow",
+    "human_remark": "quite job hopper profile",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "The candidate has strong multinational HRBP experience and is bilingual, but has a pattern of short tenures in recent roles and appears to have just joined their current company in April 2025 (future date, likely a typo for 2024).",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshiko Arai",
+    "linkedin_url": "https://jp.linkedin.com/in/%E7%9B%B4%E4%BA%BA-%E5%B0%8F%E6%9E%97-a5304a15b",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yoshiko has strong multinational HR experience and is bilingual, but her recent job changes and short tenures, along with a sector mismatch, make her a yellow fit.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Naoki Tanaka",
+    "linkedin_url": "https://jp.linkedin.com/in/naoki-tanaka-90a16457",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Naoki has strong HR Manager and HRBP experience in multinational environments with stable tenure, but his industry background is primarily automotive and chemical manufacturing, which is a sector mismatch for the consumer goods brief."
+  },
+  {
+    "name": "Tsukasa Takamatsu",
+    "linkedin_url": "https://jp.linkedin.com/in/tsukasa-takamatsu",
+    "human_flag": "yellow",
+    "human_remark": "quite job hopper profile",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Tsukasa has extensive multinational HR experience but has had very short tenures in recent roles, making them a job hopper.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "SOU TOMISAKA",
+    "linkedin_url": "https://jp.linkedin.com/in/sou-tomisaka-550b51a1",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "insufficient_japanese",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Sou has long tenure as an HR Manager at a multinational company, but his limited English proficiency and lack of consumer goods/retail experience are concerns for this brief.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Dollaya H.",
+    "linkedin_url": "https://jp.linkedin.com/in/dollayah",
+    "human_flag": "red",
+    "human_remark": "limited Japanese",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Dollaya has strong multinational HR experience, but her current tenure is short, having joined her current role in April 2023.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoshinori Hashimoto",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshinori-hashimoto-5a264811",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yoshinori has 21+ years of HR experience, including 13+ years as an HR Director, which is too senior for this HR Manager brief, and his experience is primarily in hospitality, not retail/fashion.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Rosalyn \"Lyn\" Tupaz",
+    "linkedin_url": "https://jp.linkedin.com/in/rosalyn-lyn-tupaz-0185b1222",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Lyn's extensive experience as a Cluster Chief People Officer for Northeast Asia (Japan & Korea) and her nearly 34 years in HR leadership, primarily in logistics, make her significantly overqualified for an HR Manager role in the retail/fashion sector.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Yoichi Aoyama",
+    "linkedin_url": "https://jp.linkedin.com/in/yoichi-aoyama-54401576",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Yoichi has extensive HR leadership experience in multinational environments, including a current HRBP Director role, and a strong background in talent management and development."
+  },
+  {
+    "name": "Yoshiko Tanegashima",
+    "linkedin_url": "https://www.linkedin.com/in/yoshiko-tanegashima-ab9948116/",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Yoshiko has extensive HR leadership experience in multinational companies, including retail/consumer goods, but her General Manager level and 25+ years of experience make her too senior for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shizuka Takeuchi",
+    "linkedin_url": "https://jp.linkedin.com/in/shizuka-takeuchi-1b3040323",
+    "human_flag": "red",
+    "human_remark": "1987 graduation",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "age_56_plus",
+      "graduation_before_1989",
+      "is_founder_or_self_employed",
+      "level_too_senior_for_brief"
+    ],
+    "reasoning_text": "Shizuka has extensive HR experience (33+ years) and is currently running her own consulting business, making her overqualified and not an approachable candidate for this HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kohta M.",
+    "linkedin_url": "https://jp.linkedin.com/in/kohta-m-8982b130",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_too_senior_for_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Kohta's extensive experience as Head of HRBP for regional functions at multinational companies like Richemont (luxury retail) and MSD, with over 20 years in HR, positions him as too senior for an HR Manager role.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Sandy Wang",
+    "linkedin_url": "https://jp.linkedin.com/in/sandy-wang-40800443",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Sandy has strong HR experience in multinational retail/luxury brands, aligning with the brief's requirements, but her current tenure at Casetify is very short, making her recently joined and potentially unapproachable.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masahiro Tsuruta",
+    "linkedin_url": "https://jp.linkedin.com/in/masahiro-tsuruta-9519a767",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "interim_or_consulting_recent",
+      "is_founder_or_self_employed",
+      "multinational_hr_experience"
+    ],
+    "reasoning_text": "Masahiro has extensive multinational HR experience and is likely bilingual, but his recent independent consulting work and long tenure in specialized HR roles (T&D, OD) might not align with the hands-on HR Manager scope.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Masato Ishibashi",
+    "linkedin_url": "https://jp.linkedin.com/in/masato-ishibashi-694a80a4",
+    "human_flag": "red",
+    "human_remark": "client",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Masato has strong HR experience in multinational luxury retail, aligning with the brief's level and industry, but his current tenure is relatively short at 1 year and 5 months.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Kaori HAMADA",
+    "linkedin_url": "https://jp.linkedin.com/in/kaori-hamada-5a22861b7",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Kaori has strong multinational HR experience in relevant industries, but she recently joined her current role.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Saumil Shah",
+    "linkedin_url": "https://jp.linkedin.com/in/saumilshahjp",
+    "human_flag": "red",
+    "human_remark": "not strong and fit",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Saumil has strong multinational HR experience at the HR Manager level, but his recent job change (less than 2 months) and primary tech/staffing industry background are concerns for this retail brief.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Taku Yoshiba",
+    "linkedin_url": "https://jp.linkedin.com/in/taku-yoshiba-106a1b104",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Taku has relevant HRBP and Country HR Manager experience in multinational retail, but he recently joined his current role.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Hiroki Y.",
+    "linkedin_url": "https://jp.linkedin.com/in/hiroki-y-b4264814",
+    "human_flag": "yellow",
+    "human_remark": "not strong enough",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Hiroki has relevant luxury retail HR experience in multinational companies, but his recent tenures are short, including only 1 year and 7 months in his current role and 9 months in the previous one.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Daito Yamamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/daito-yamamoto-5b68597a",
+    "human_flag": "red",
+    "human_remark": "Not HR",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "only_some_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Daito's experience is heavily focused on retail operations and store-level HR, which does not align with the strategic HR partnership and enterprise-wide initiatives required by the brief."
+  },
+  {
+    "name": "Mitsuki Iida",
+    "linkedin_url": "https://jp.linkedin.com/in/mitsuki-iida-322720113",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Mitsuki has solid HRBP experience in multinational luxury retail, with good tenure and a background that aligns well with the brief's requirements for an HR Manager."
+  },
+  {
+    "name": "Mari Matsuda",
+    "linkedin_url": "https://jp.linkedin.com/in/mari-matsuda-3b73253b",
+    "human_flag": "red",
+    "human_remark": "too old",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "not_strong_enough",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Mari has long tenure in an HR Manager role within a relevant industry, but her profile is too lean to confirm the required strategic and hands-on HRBP experience."
+  },
+  {
+    "name": "Ryosuke Murata",
+    "linkedin_url": "https://jp.linkedin.com/in/ryosuke-murata-2a7a145b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Ryosuke has over 15 years of corporate HR experience, including multinational environments, and his current HR General Manager role aligns with the target seniority, but his industry experience is in automotive manufacturing, not consumer goods/retail."
+  },
+  {
+    "name": "Emi Kono",
+    "linkedin_url": "https://jp.linkedin.com/in/emi-kono-2210651a2",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Emi has strong HR Manager and HRBP experience in multinational luxury retail, which is a relevant industry adjacency, and demonstrates good tenure in her roles."
+  },
+  {
+    "name": "Ayako Okubo",
+    "linkedin_url": "https://jp.linkedin.com/in/ayako-okubo-a2b54313b",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Ayako has strong HRBP and HR Manager experience in multinational retail/apparel companies, with good tenure and a clear career progression, making her a strong fit for the brief."
+  },
+  {
+    "name": "Hisako O.",
+    "linkedin_url": "https://jp.linkedin.com/in/hisakootsuka",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "relevant_industry_adjacency"
+    ],
+    "reasoning_text": "Hisako has strong HR experience, including Senior HR Manager at a multinational beauty brand, and her tenure at Tatcha is over three years."
+  },
+  {
+    "name": "Junko Umeura",
+    "linkedin_url": "https://jp.linkedin.com/in/junko-umeura-12063113",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "multinational_hr_experience",
+      "recently_joined",
+      "relevant_industry_adjacency",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Junko has strong multinational HR experience in relevant industries, but she recently joined her current role at Patagonia (11 months tenure).",
+    "reapproach_after": null
+  },
+  {
+    "name": "Ippei Kinuta",
+    "linkedin_url": "https://jp.linkedin.com/in/ippei-kinuta-4146aa61",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Ippei has good tenure as an HR Manager in multinational companies, but his industry experience is in chemical manufacturing, and the details on his strategic HRBP scope are limited."
+  },
+  {
+    "name": "Fumiko Ogame",
+    "linkedin_url": "https://jp.linkedin.com/in/fumiko-ogame-3270a2292",
+    "human_flag": "green",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Fumiko has relevant HR Manager experience in multinational luxury brands, but her current role is very new, and luxury goods is a sector mismatch for Crocs.",
+    "reapproach_after": null
+  },
+  {
+    "name": "Misako Hakozaki",
+    "linkedin_url": "https://jp.linkedin.com/in/misako-hakozaki-36b63b41",
+    "human_flag": "red",
+    "human_remark": "just changed jobs",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "not_strong_enough",
+      "only_some_hr_experience",
+      "scope_mismatch"
+    ],
+    "reasoning_text": "Misako's profile shows frequent job changes, and her experience appears to be more operational/administrative HR rather than the strategic HRBP focus required, with limited multinational experience."
+  },
+  {
+    "name": "Yoshiaki Yamagami",
+    "linkedin_url": "https://jp.linkedin.com/in/yoshiaki-yamagami-76aa0b83",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "green",
+    "reasoning_tags": [
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Yoshiaki is an HR Manager at BMW Group with good tenure, matching the level and multinational experience required, but his industry experience is in automotive manufacturing, not consumer goods/retail."
+  },
+  {
+    "name": "Rie Akasaka Sakamoto",
+    "linkedin_url": "https://jp.linkedin.com/in/rie-akasaka-sakamoto-663100178",
+    "human_flag": "yellow",
+    "human_remark": "only 2 tears hr",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "only_some_hr_experience",
+      "recently_joined",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Rie recently transitioned into HR in 2023, with prior experience in marketing, and her current role is focused on DE&I, which suggests limited core HR experience for this brief.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "Shunsuke Sato",
+    "linkedin_url": "https://jp.linkedin.com/in/%E5%92%8C%E5%A4%AB-%E5%B0%8F%E7%A3%AF-80a380158",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "job_hopper_profile",
+      "multinational_hr_experience",
+      "short_current_tenure"
+    ],
+    "reasoning_text": "Shunsuke has multinational HR experience but exhibits a job-hopper profile with very short tenures at multiple companies, including his current role.",
+    "red_bucket": "red_reapproach_later",
+    "reapproach_after": null
+  },
+  {
+    "name": "TAKEGAWA Ayumi",
+    "linkedin_url": "https://jp.linkedin.com/in/takegawa-ayumi-189604a9",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "scope_mismatch",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "The candidate's profile is too sparse to assess fit, lacking details on responsibilities, scope, and tenure, and their industry experience is in technology, not consumer goods."
+  },
+  {
+    "name": "Junki Yoneda",
+    "linkedin_url": "https://jp.linkedin.com/in/junki-yoneda-55b14a21b",
+    "human_flag": "yellow",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "The candidate's profile is too sparse to assess their experience and scope, and their current industry is logistics, not retail/consumer goods."
+  },
+  {
+    "name": "Rajiv Sharma",
+    "linkedin_url": "https://jp.linkedin.com/in/rajiv-sharma-238b896",
+    "human_flag": "red",
+    "human_remark": "country manager",
+    "predicted_label": "red",
+    "reasoning_tags": [
+      "level_too_senior_for_brief",
+      "not_hr_role",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Rajiv's background is in commercial leadership and retail operations, not HR, and his current role as President is too senior for an HR Manager position.",
+    "red_bucket": "red_permanent",
+    "reapproach_after": null
+  },
+  {
+    "name": "Marina Yamamura",
+    "linkedin_url": "https://jp.linkedin.com/in/marina-yamamura-3b9899279",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "not_strong_enough",
+      "only_some_hr_experience",
+      "scope_mismatch",
+      "sector_mismatch"
+    ],
+    "reasoning_text": "Marina is a recent graduate with limited and blended HR experience, making her too junior and not strong enough for the required scope and multinational environment."
+  },
+  {
+    "name": "Akiko Mega",
+    "linkedin_url": "https://jp.linkedin.com/in/akikomega",
+    "human_flag": "red",
+    "human_remark": "",
+    "predicted_label": "yellow",
+    "reasoning_tags": [
+      "bilingual_en_ja",
+      "clean_long_tenure",
+      "level_matches_brief",
+      "multinational_hr_experience",
+      "recently_joined"
+    ],
+    "reasoning_text": "Akiko has strong multinational HR experience and is bilingual, but she recently joined her current company in April 2024, making her unapproachable.",
+    "reapproach_after": null
+  }
+]

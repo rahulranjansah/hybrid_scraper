@@ -1,138 +1,143 @@
 """
-Stage 4: AI Relevance Scorer
+Stage 4: DSPy-based relevance judge (replaces the old Gemini 0-10 scorer).
 
-Replaces BM25 ranking. Instead of keyword-frequency scoring,
-Gemini evaluates each person against the sourcing brief.
+Per user directive 2026-04-22, the prior 0-10 score column was deemed
+unreliable. This module now calls the DSPy judge defined in
+`judge/step3_dspy_judge.py`, which emits a 4-class label
+(golden > green > yellow > red) plus reasoning tags and a grounding
+sentence. Label derivation is code-level, not LLM-level, so each
+verdict is auditable against the rubric.
 
-BM25 problem: "HR trends blog" with 5x "HR" scores higher than
-a LinkedIn profile saying "CHRO" once.
-
-AI advantage: understands that CHRO > blog post for recruiting.
-
-Model: gemini-2.5-flash-lite, 1024 token cap per call.
-Batches: 10 results per call (same as extractor).
+Drop-in replacement: same `score_results(results, keywords_text)` signature
+that `combined_scraper/run.py` already calls. Downstream CSV/JSON schemas
+keep the `flag` / `relevance_score` / `score_reason` fields for back-compat.
+The `relevance_score` is a derived rank (golden=10, green=8, yellow=5,
+red=1, unknown=0) purely for sorting — do not interpret as an independent
+quality metric.
 """
 
-import json
-from .query_generator import call_gemini
+from __future__ import annotations
 
-BATCH_SIZE = 10
+import os
+import sys
+from pathlib import Path
+
+import dspy
+
+# Make the judge module importable.
+_JUDGE_DIR = Path(__file__).resolve().parent.parent / "judge"
+if str(_JUDGE_DIR) not in sys.path:
+    sys.path.insert(0, str(_JUDGE_DIR))
+
+from step3_dspy_judge import (  # noqa: E402
+    ExplainThenLabel,
+    configure_lm,
+    derive_label,
+    route_red,
+    reapproach_date,
+    TIMING_CONCERN_TAGS,
+    HARD_RED_TAGS,
+)
+
+# Rank used ONLY for sorting/back-compat. Not an independent quality score.
+LABEL_TO_RANK = {"golden": 10, "green": 8, "yellow": 5, "red": 1}
 
 
-def score_results(results: list[dict], keywords_text: str) -> list[dict]:
+def _format_candidate_for_judge(result: dict, person: dict) -> str:
+    """Build the candidate string from one scraper result + one extracted person.
+
+    Scraper rows don't carry strengths/weaknesses (those came from the old
+    sheet format). The judge has to reason from title / company / snippet /
+    source URL, plus any LinkedIn URL we found.
     """
-    Score each result for relevance to the sourcing brief.
+    parts: list[str] = [f"Name: {person.get('name') or '?'}"]
+    title = (person.get("title") or "").strip()
+    company = (person.get("company") or "").strip()
+    if title or company:
+        parts.append(f"Current role: {title or '?'} @ {company or '?'}")
+    if person.get("linkedin_url"):
+        parts.append(f"LinkedIn: {person['linkedin_url']}")
+    if person.get("seniority"):
+        parts.append(f"Seniority signal: {person['seniority']}")
+    if person.get("employment_type"):
+        parts.append(f"Employment type: {person['employment_type']}")
+    if result.get("url"):
+        parts.append(f"Source URL: {result['url']}")
+    if result.get("title"):
+        parts.append(f"Page title: {result['title'][:200]}")
+    snippet = (result.get("snippet") or "").strip()
+    if snippet:
+        parts.append(f"Snippet: {snippet[:500]}")
+    return "\n".join(parts)
 
-    Only scores results where people were extracted (is_person_result=True).
-    Non-person results get score=0 automatically.
+
+def score_results(results: list[dict], keywords_text: str, brief: str | None = None) -> list[dict]:
+    """Judge each result's primary person against the sourcing brief.
 
     Args:
-        results: Enriched results from Stage 3 (with "people" field)
-        keywords_text: Original keywords from Google Doc (the sourcing brief)
+      results: scraper results from stage 3/3.5. Each row may have a
+        ``people`` list.
+      keywords_text: the sourcing brief text (or a keyword list) used
+        as the ``brief`` input to the DSPy judge unless ``brief`` is
+        explicitly provided.
+      brief: override the judge's brief input (e.g. for Crocs use the
+        full JD rather than the short keyword string).
 
     Returns:
-        Same results with added "relevance_score" (0-10) and "score_reason" fields,
-        sorted by score descending.
-
-    Cost: 1 Gemini call per 10 person-results
+      The same list, sorted by label (golden first), with added fields
+      per row: ``flag``, ``reasoning_tags``, ``reasoning_text``,
+      ``relevance_score`` (derived rank), and for reds
+      ``red_bucket`` + (optional) ``reapproach_after``.
     """
-    # Split into person results and non-person results
-    person_results = [r for r in results if r.get("is_person_result")]
-    non_person_results = [r for r in results if not r.get("is_person_result")]
+    configure_lm()
+    brief_text = (brief or keywords_text or "").strip() or "no brief provided"
+    judge = dspy.Predict(ExplainThenLabel)
 
-    # Non-person results get score 0
-    for r in non_person_results:
-        r["relevance_score"] = 0
+    non_person = [r for r in results if not r.get("is_person_result")]
+    for r in non_person:
+        r["flag"] = "red"
         r["score_reason"] = "No person identified in result"
+        r["relevance_score"] = 0
+        r["reasoning_tags"] = []
+        r["red_bucket"] = "red_permanent"
 
-    if not person_results:
-        print("  No person results to score.")
-        return sorted(results, key=lambda r: r.get("relevance_score", 0), reverse=True)
+    person_results = [r for r in results if r.get("is_person_result") and r.get("people")]
+    print(f"  [judge] scoring {len(person_results)} person-results "
+          f"(skipping {len(non_person)} non-person rows)")
 
-    # Score person results in batches
-    total_calls = 0
-
-    for batch_start in range(0, len(person_results), BATCH_SIZE):
-        batch = person_results[batch_start:batch_start + BATCH_SIZE]
-        batch_num = batch_start // BATCH_SIZE + 1
-        total_batches = (len(person_results) + BATCH_SIZE - 1) // BATCH_SIZE
-
-        print(f"  [Score batch {batch_num}/{total_batches}] Scoring {len(batch)} results...")
-
-        entries = []
-        for i, r in enumerate(batch):
-            people_str = "; ".join(
-                f"{p.get('name', '?')} - {p.get('title', '?')} @ {p.get('company', '?')}"
-                for p in r.get("people", [])
-            )
-            entries.append(
-                f"{i}. People: {people_str}\n"
-                f"   Source: {r.get('url', '')}\n"
-                f"   Context: {r.get('title', '')} | {r.get('snippet', '')[:150]}"
-            )
-
-        prompt = f"""You are scoring candidates for an executive recruiting search in Japan.
-
-The client is looking for:
----
-{keywords_text.strip()}
----
-
-Rate each candidate result below on a 0-10 scale:
-- 10: Perfect match (exact role + location + seniority)
-- 7-9: Strong match (right seniority, related role or location)
-- 4-6: Possible match (some relevant signals)
-- 1-3: Weak match (tangential)
-- 0: Not relevant
-
-IMPORTANT FILTERING RULES (from client feedback):
-- EXCLUDE (score 0): Recruiters, headhunters, executive search professionals — they are NOT candidates
-- EXCLUDE (score 0): Founders, self-employed, freelancers, consultants running their own firm
-- EXCLUDE (score 0): People who appear to be above 55 years old (e.g., graduated before 1993, 30+ years experience)
-- PENALIZE (max score 5): HR Senior Manager level or below — client wants Director level and above
-- PENALIZE (max score 6): People at purely domestic Japanese companies with no global/international operations
-- FLAG in reason: If the person appears to have recently changed jobs, mention "recently changed jobs" in the reason
-- PREFER: People at multinational/global companies, with LinkedIn profiles
-- Target roles: CHRO, HR Director, Head of HR, VP HR, Country HR Manager, senior HRBP (at Director+ level)
-
-Results:
-{chr(10).join(entries)}
-
-Return a JSON array where each item has:
-- "index": result number (0-based)
-- "score": integer 0-10
-- "reason": one short sentence explaining the score
-- "flag": "green" (strong match), "yellow" (recently changed jobs or minor concerns), or "red" (excluded/weak)
-"""
-
+    for i, r in enumerate(person_results, 1):
+        # Primary person per result. Multi-person pages (events) keep the
+        # first one — secondary people can be judged as a future pass.
+        person = r["people"][0]
+        candidate = _format_candidate_for_judge(r, person)
         try:
-            raw = call_gemini(prompt)
-            scores = json.loads(raw)
-            total_calls += 1
-
-            if isinstance(scores, dict):
-                scores = scores.get("results", scores.get("scores", scores.get("data", [])))
-
-            score_map = {s["index"]: s for s in scores}
-
-            for j, result in enumerate(batch):
-                s = score_map.get(j, {})
-                result["relevance_score"] = s.get("score", 0)
-                result["score_reason"] = s.get("reason", "No score returned")
-                result["flag"] = s.get("flag", "")
-
+            pred = judge(brief=brief_text, candidate=candidate)
+            tags = set(pred.reasoning_tags or [])
+            label = derive_label(tags)
+            r["flag"] = label
+            r["reasoning_tags"] = sorted(tags)
+            r["score_reason"] = pred.reasoning_text
+            r["strengths"] = list(pred.strengths or [])
+            r["weaknesses"] = list(pred.weaknesses or [])
+            r["missing_data"] = list(pred.missing_data or [])
+            r["actionable_insights"] = list(pred.actionable_insights or [])
+            r["relevance_score"] = LABEL_TO_RANK.get(label, 0)
+            if label == "red":
+                r["red_bucket"] = route_red(tags)
+                if r["red_bucket"] == "red_reapproach_later":
+                    r["reapproach_after"] = reapproach_date()
         except Exception as e:
-            print(f"    Error in batch {batch_num}: {e}")
-            for result in batch:
-                result["relevance_score"] = 0
-                result["score_reason"] = f"Scoring error: {e}"
+            r["flag"] = "error"
+            r["score_reason"] = f"judge error: {str(e)[:200]}"
+            r["relevance_score"] = 0
+            r["reasoning_tags"] = []
+        if i % 5 == 0 or i == len(person_results):
+            print(f"    judged {i}/{len(person_results)}")
 
-    # Sort all results by score (descending)
-    all_results = person_results + non_person_results
-    all_results.sort(key=lambda r: r.get("relevance_score", 0), reverse=True)
+    results.sort(key=lambda x: LABEL_TO_RANK.get(x.get("flag", ""), -1), reverse=True)
 
-    scored_count = sum(1 for r in all_results if r.get("relevance_score", 0) > 0)
-    print(f"\n  Gemini calls: {total_calls}")
-    print(f"  Results scored > 0: {scored_count}/{len(all_results)}")
+    from collections import Counter
+    tally = Counter(r.get("flag") for r in results if r.get("is_person_result"))
+    print(f"  [judge] label distribution: {dict(tally)}")
 
-    return all_results
+    return results

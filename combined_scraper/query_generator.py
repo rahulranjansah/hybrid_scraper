@@ -174,8 +174,12 @@ if __name__ == "__main__":
     Head of HR
     HRBP
     HR Director
-    CHRO
+    HR Business Manager
+    Senior HR Manager
+    Senior HRBP
+    HR Business Partner
     Tokyo
+    Kyoto
     Osaka
     """
 
