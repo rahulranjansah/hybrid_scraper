@@ -261,6 +261,14 @@ if UNTAGGED.exists():
 if PREDICTIONS.exists():
     st.sidebar.caption(f"predictions.xlsx · {PREDICTIONS}")
 
+# Diagnostics — quick check of which API keys made it into os.environ
+st.sidebar.markdown("---")
+st.sidebar.markdown("**API keys loaded:**")
+for _k in ("GEMINI_API_KEY", "BRAVE_API_KEY", "SERPER_API_KEY", "APIFY_API_KEY"):
+    _present = bool(os.environ.get(_k))
+    _icon = "✅" if _present else "❌"
+    st.sidebar.caption(f"{_icon} {_k}")
+
 # Main inputs
 col_brief, col_cluster = st.columns([2, 1])
 
@@ -305,8 +313,19 @@ sourced = st.button("🔍 Source", type="primary", disabled=not brief_text.strip
 
 # Run
 if sourced:
-    if not os.environ.get("GEMINI_API_KEY"):
-        st.error("GEMINI_API_KEY missing in .env. Add it and reload.")
+    missing = [k for k in ("GEMINI_API_KEY", "BRAVE_API_KEY", "SERPER_API_KEY")
+               if not os.environ.get(k)]
+    if missing:
+        st.error(
+            "Missing required API keys: " + ", ".join(missing) +
+            "\n\n**On Streamlit Cloud:** open Manage app → Settings → "
+            "Secrets and paste TOML like:\n```toml\n" +
+            "\n".join(f'{k} = "your-key-here"' for k in missing) +
+            "\n```\n"
+            "**Locally:** add the same lines to `.env`.\n\n"
+            "Key names are case-sensitive; do not wrap them in a "
+            "TOML section like `[default]`."
+        )
         st.stop()
 
     progress_box = st.empty()
