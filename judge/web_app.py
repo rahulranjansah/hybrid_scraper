@@ -274,7 +274,7 @@ with col_brief:
     if jd_source == "Paste text":
         brief_text = st.text_area(
             "Paste the JD here", height=240,
-            placeholder="Crocs - HR Manager\nLocation: Tokyo\n...",
+            placeholder="Company A - HR Manager\nLocation: Tokyo\n...",
         )
     elif jd_source == "Upload PDF":
         up = st.file_uploader("Upload JD PDF", type=["pdf"])
