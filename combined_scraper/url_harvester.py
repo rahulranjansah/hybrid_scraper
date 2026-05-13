@@ -20,8 +20,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-BRAVE_API_KEY = os.getenv("BRAVE_API_KEY")
+
+def _serper_key() -> str:
+    """Lazy read so Streamlit-Cloud secrets injected after import are visible."""
+    return os.getenv("SERPER_API_KEY", "")
+
+
+def _brave_key() -> str:
+    return os.getenv("BRAVE_API_KEY", "")
 
 SERPER_URL = "https://google.serper.dev/search"
 BRAVE_URL = "https://api.search.brave.com/res/v1/web/search"
@@ -103,7 +109,8 @@ def _search_brave(query: str, num_results: int = 10) -> list[dict]:
     Brave can't handle site: operators — so we strip them and search
     with just the keywords + "Japan" for relevance.
     """
-    if not BRAVE_API_KEY:
+    brave_key = _brave_key()
+    if not brave_key:
         return []
 
     # Strip all site: operators — Brave can't use them
@@ -117,7 +124,7 @@ def _search_brave(query: str, num_results: int = 10) -> list[dict]:
 
     resp = _request_with_retry(
         requests.get, BRAVE_URL,
-        headers={"X-Subscription-Token": BRAVE_API_KEY, "Accept": "application/json"},
+        headers={"X-Subscription-Token": brave_key, "Accept": "application/json"},
         params={"q": clean_q, "count": min(num_results, 20)},
     )
 
@@ -130,12 +137,13 @@ def _search_brave(query: str, num_results: int = 10) -> list[dict]:
 
 def _search_serper(query: str, num_results: int = 10) -> list[dict]:
     """Search Serper. Handles site: operators natively (Google proxy)."""
-    if not SERPER_API_KEY:
+    serper_key = _serper_key()
+    if not serper_key:
         return []
 
     resp = _request_with_retry(
         requests.post, SERPER_URL,
-        headers={"X-API-KEY": SERPER_API_KEY, "Content-Type": "application/json"},
+        headers={"X-API-KEY": serper_key, "Content-Type": "application/json"},
         json={"q": query, "num": min(num_results, 10)},
     )
 

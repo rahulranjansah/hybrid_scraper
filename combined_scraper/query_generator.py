@@ -22,7 +22,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+def _gemini_key() -> str:
+    """Read GEMINI_API_KEY lazily so secrets injected after module import
+    (e.g. Streamlit Cloud st.secrets → os.environ in web_app.py) are
+    visible at call time."""
+    return os.getenv("GEMINI_API_KEY", "")
 
 # gemini-2.5-flash-lite: cheapest model, highest free-tier quota (15 RPM, 1000 RPD)
 # gemini-2.0-flash retires March 3, 2026 — don't use it
@@ -73,11 +78,15 @@ def call_gemini(prompt: str) -> str:
     Uses gemini-2.5-flash-lite with a 1024-token output cap.
     Free tier: 15 requests/min, 1000 requests/day.
     """
-    if not GEMINI_API_KEY:
-        raise ValueError("No GEMINI_API_KEY in .env")
+    key = _gemini_key()
+    if not key:
+        raise ValueError(
+            "GEMINI_API_KEY is empty. Set it in .env (local) or in "
+            "Streamlit Cloud → Settings → Secrets (deployed)."
+        )
 
     response = requests.post(
-        f"{GEMINI_URL}?key={GEMINI_API_KEY}",
+        f"{GEMINI_URL}?key={key}",
         headers={"Content-Type": "application/json"},
         json={
             "contents": [{"parts": [{"text": prompt}]}],
