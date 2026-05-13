@@ -37,7 +37,37 @@ PROJECT_ROOT = HERE.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(HERE))
 
-# Lazy imports so the streamlit page renders even if API keys are missing.
+# ---------------------------------------------------------------------------
+# Secrets bootstrap — MUST run before importing any module that reads
+# API keys at import time (query_generator, url_harvester, etc).
+#
+# On Streamlit Cloud, secrets live in st.secrets but DO NOT auto-populate
+# os.environ. The downstream scraper modules call os.getenv() at module
+# load — so we push secrets into os.environ here first.
+# Locally, .env still works via load_dotenv() below as a fallback.
+# ---------------------------------------------------------------------------
+load_dotenv(PROJECT_ROOT / ".env")  # local dev: read .env into os.environ
+
+_SECRET_KEYS = (
+    "APP_PASSWORD",
+    "GEMINI_API_KEY",
+    "BRAVE_API_KEY",
+    "SERPER_API_KEY",
+    "APIFY_API_KEY",
+)
+try:
+    for _k in _SECRET_KEYS:
+        if not os.environ.get(_k):
+            _v = st.secrets.get(_k)
+            if _v:
+                os.environ[_k] = str(_v)
+except Exception:
+    # st.secrets is unavailable when no secrets.toml exists locally.
+    # That's fine — load_dotenv already populated os.environ from .env.
+    pass
+
+# NOW it's safe to import scraper modules (their import-time os.getenv
+# calls will see the keys).
 from combined_scraper.query_generator import generate_queries, TARGET_SITES  # noqa: E402
 from combined_scraper.url_harvester import harvest_urls  # noqa: E402
 from combined_scraper.ai_extractor import extract_people  # noqa: E402
@@ -47,8 +77,6 @@ from master_ledger import (  # noqa: E402
     exclusion_keys, add_untagged, add_predictions, _key,
     UNTAGGED, PREDICTIONS,
 )
-
-load_dotenv(PROJECT_ROOT / ".env")
 
 LABEL_RANK = {"golden": 0, "blue": 1, "green": 2, "yellow": 3, "red": 4, "error": 5}
 LABEL_COLORS = {
@@ -178,12 +206,8 @@ st.set_page_config(page_title="Sourcing — Source new candidates", layout="wide
 # the gate is disabled (local dev). When set, app requires the password
 # before any UI renders.
 def _expected_password() -> str | None:
-    try:
-        v = st.secrets.get("APP_PASSWORD")
-        if v:
-            return v
-    except Exception:
-        pass
+    # Already pushed from st.secrets to os.environ in the secrets
+    # bootstrap above, so reading from os.environ covers both cases.
     return os.environ.get("APP_PASSWORD")
 
 
